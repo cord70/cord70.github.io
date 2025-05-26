@@ -1,4 +1,4 @@
-User-Agent: *
+User-Agent: * 
 Disallow: /fabrika/ksi/
 Disallow: /photo/da4a/
 
