@@ -1,10 +1,5 @@
-
 User-Agent: *
-Disallow: /cyber/me/
 Disallow: /fabrika/ksi/
-Disallow: /fabrika/kia/
 Disallow: /photo/da4a/
-
-Host: https://cord70.github.io
 
 Sitemap: https://cord70.github.io/sitemap.txt
