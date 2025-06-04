@@ -1,4 +1,4 @@
-// cord70.github.io/cyber
+// cyber
 
 //var googlecounter = 'UA-9493768-2';
 var googlecounter = 'G-KVPFGW8RWM';
@@ -26,7 +26,7 @@ function topmenu() {
 }
 
 
-// cord70.github.io/photo cord70.github.io/cyber cord70.github.io/tarmo 
+// photo cyber tarmo 
 
 // lazy counters
 var scrolldone = false;
