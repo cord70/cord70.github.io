@@ -3,3 +3,4 @@ Disallow: /fabrika/ksi/
 Disallow: /photo/da4a/
 
 Sitemap: https://cord70.github.io/sitemap.txt
+Sitemap: https://cord70.github.io/sitemap.xml
