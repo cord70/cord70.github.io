@@ -17,7 +17,7 @@ if (main) videoIds.forEach(insertVideo);
 function insertVideo(id, index) {
     var ins = function () {
         h1.innerText = (index + 1).toString() + '/' + count.toString() + ' videos ';
-        var src = 'https://youtube.com/embed/' + id +
+        var src = 'https://www.youtube.com/embed/' + id +
             '?autoplay=1' +
             '&playlist=' + id +
             '&mute=1' +
