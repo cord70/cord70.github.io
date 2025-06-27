@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
+  <meta charset="utf-8">
+
   <title> Бабочка на жёлтом цветке </title>
   <meta content="Бабочка по форме, пятнышкам и пёстрой окраске усиков похожа на голубянку. Только нижняя часть крыльев у неё палевая, а не голубая." name="description">
   <meta content="жёлтый, зелёный, интересные, макро, насекомые, палевый, природа, сиреневый, фотография, цветок," name="keywords">
   <meta content="Евгений Корниенко" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/photo/insect/butterfly/yellow-flower-en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/insect/butterfly/yellow-flower.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/insect/butterfly/yellow-flower.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../../../images/main.css" rel="stylesheet">
   <script defer="" src="navButterfly.js"> </script>
@@ -56,9 +66,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

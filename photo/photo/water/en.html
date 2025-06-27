@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+  <meta charset="utf-8">
+
   <title> Photos of water, sea horizon, water drops and so </title>
   <meta content="Here I show some photographs of interesting nature features like drops of water, sea views and so." name="description">
   <meta content="interesting, macro, vortex, waterfall," name="keywords">
   <meta content="Eugene Kornienko" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/photo/water/en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/water/index.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/water/en.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="https://cord70.github.io/photo/photo/water/index.html" hreflang="x-default" rel="alternate">
   <link href="../../images/main.css" rel="stylesheet">
@@ -82,9 +92,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

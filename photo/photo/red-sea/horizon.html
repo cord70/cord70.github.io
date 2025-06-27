@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
+  <meta charset="utf-8">
+
   <title> Море до горизонта </title>
   <meta content="Красное море чистое, потому что спокойное, нет рек и очень редко бывают дожди." name="description">
   <meta content="картинки, коралловые рыбки, морской, на море, обои, отель, открытое море, отпуск, природа, простор, спокойное море, ясное небо," name="keywords">
   <meta content="Евгений Корниенко" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/photo/red-sea/horizon-en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/red-sea/horizon.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/red-sea/horizon.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../../images/main.css" rel="stylesheet">
   <script defer="" src="navRedsea.js"> </script>
@@ -72,9 +82,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

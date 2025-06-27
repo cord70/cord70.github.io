@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+  <meta charset="utf-8">
+
   <title> Photo of spiders, mosquitos and other insects </title>
   <meta content="Interesting photo of insects: Moths perform a magic dance. Grasshoppers mask on the background. How do fly's feet look like?" name="description">
   <meta content="dragonfly, interesting, macro, nature, photography," name="keywords">
   <meta content="Eugene Kornienko" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/photo/insect/en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/insect/index.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/insect/en.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="https://cord70.github.io/photo/photo/insect/index.html" hreflang="x-default" rel="alternate">
   <link href="../../images/main.css" rel="stylesheet">
@@ -162,9 +172,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

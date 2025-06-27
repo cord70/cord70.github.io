@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
+  <meta charset="utf-8">
+
   <title> Контроллер ВМ8036 для умного дома </title>
   <meta content="Контроль температуры в ответственных местах, защита водопровода от замерзания, показ графика температур и потребляемого тока на страничке своего дома в интернете." name="description">
   <meta content="автоматизация, вм8036, главный, дача, дистанционное, измерение, контроллер, контроль, обогрев, онлайн, освещение, показания счётчика, пример, умного дома, управление," name="keywords">
   <meta content="Евгений Корниенко" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/workshop/da4a/da4a.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../../images/main.css" rel="stylesheet">
   <script defer="" src="navDa4a.js"> </script>
@@ -239,9 +249,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

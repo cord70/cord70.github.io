@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/photo/underwater/coral/index.html" rel="canonical">
-
-   <script> const dir= '/coral';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Кораллы (Плаваем с маской) </title>
   <meta content="Кораллы - это животные, которые ведут оседлый растительный образ жизни. В Красном море, плавая с маской и трубкой, можно увидеть кораллы разных пород." name="description">
   <meta content="кораллы красного моря, красное, макро, подводная, риф," name="keywords">
@@ -106,9 +106,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

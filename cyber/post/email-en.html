@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+  <meta charset="utf-8">
+
   <title> Write a message to me or to the Guest Book </title>
   <meta content="Write your opinion about my site. How may I do it better? What is wrong here?" name="description">
   <meta content="author, comments, email, site, url, " name="keywords">
   <meta content="Eugene Kornienko" name="author">
-  <meta charset="utf-8">
+  
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="https://cord70.github.io/cyber/post/email-en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/cyber/post/email.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/cyber/post/email-en.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/cyber/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../images/main.css" rel="stylesheet">
   <script defer="" src="navPost.js"> </script>
@@ -67,9 +77,7 @@
 
    <p> <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0000529">
      Pavlov's Cockroach Classical Conditioning of Salivation in an
-                Insect </a> </p>
-
-  
+                Insect </a> </p>
 
    <p> <a href="https://consc.net/papers/facing.html">
      Facing up to the problem of consciousness </a> </p>
@@ -87,9 +95,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

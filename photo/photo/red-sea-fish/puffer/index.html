@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/photo/red-sea-fish/puffer/index.html" rel="canonical">
- 
-   <script> const dir= '/puffer';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Маскированный аротрон </title>
   <meta content="Масковый пуффер живёт в Красном море. Медлительная толстая рыбка серого цвета с чёрными пятнами." name="description">
   <meta content="клюв, красное, кузовок, подводное, пятнистый," name="keywords">
@@ -87,9 +87,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

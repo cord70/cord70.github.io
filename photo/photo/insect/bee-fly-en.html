@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+  <meta charset="utf-8">
+
   <title> Syrphida (Photos of insects) </title>
   <meta content="This harmless fly on a blue flower looks like a bee for us and for birds. The Syrphidae can hang in air like hummingbirds do." name="description">
   <meta content="black, blue, coloring, flower, interesting, macro, masking, nature, photography, stripes, yellow," name="keywords">
   <meta content="Eugene Kornienko" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/photo/insect/bee-fly-en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/insect/bee-fly.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/insect/bee-fly-en.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../../images/main.css" rel="stylesheet">
   <script defer="" src="navInsect.js"> </script>
@@ -49,9 +59,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

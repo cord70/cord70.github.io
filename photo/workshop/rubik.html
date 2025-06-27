@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
+  <meta charset="utf-8">
+
   <title> Простые правила сборки кубика Рубика </title>
   <meta content="Зная пару принципов и пару формул, и потренировавшись, можно собрать кубик Рубика за пару минут. Инструкция на 1 страничке." name="description">
   <meta content="3x3, быстрое обучение, головоломки, игры, кубик рубик, логический, порядок, последовательность, развлечения, сборка, сложный, фото," name="keywords">
   <meta content="Евгений Корниенко" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/workshop/rubik.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../images/main.css" rel="stylesheet">
   <script defer="" src="navWorkshop.js"> </script>
@@ -237,9 +247,6 @@
   <div class="foot1 sel" data-id="rubik" data-url="https://cord70.github.io/photo/workshop/rubik.html" id="disqus_thread">
   </div>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

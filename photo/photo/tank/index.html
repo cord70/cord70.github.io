@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/photo/tank/index.html" rel="canonical">
-
-   <script> const dir= '/tank';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Аквариумные рыбки </title>
   <meta content="В аквариуме для больших рыб живут цихлиды, сомы, а для маленьких - барбусы, вьюны, разные мальки. В грунте много меланий. На прочих улиток охотятся почти все рыбы." name="description">
   <meta content="барбус, фото рыб," name="keywords">
@@ -185,9 +185,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

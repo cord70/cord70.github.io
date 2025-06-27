@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/photo/red-sea-fish/butterfly/index.html" rel="canonical">
- 
-   <script> const dir= '/butterfly';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Рыбы бабочки </title>
   <meta content="У маскированной бабочки маска тёмно синяя. У некоторых видов бабочек есть оранжевые и голубые цвета. Основные цвета - жёлтый, белый, чёрный." name="description">
   <meta content="жёлтый, кораллы, красное, на экран, названия, обои, подводное, природа, фото, цветные," name="keywords">
@@ -162,9 +162,6 @@
   <div class="foot1 sel" data-id="butterflyfish" data-url="https://cord70.github.io/photo/photo/red-sea-fish/butterfly/index.html" id="disqus_thread">
   </div>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

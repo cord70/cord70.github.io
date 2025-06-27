@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/photo/crete/index.html" rel="canonical">
-
-   <script> const dir= '/crete';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Отпуск на Крите. Подводные и простые фотографии. </title>
   <meta content="На Крите мало кто плавает с маской, а там тоже богатый и красивый подводный мир. Люди не боятся осьминогов под ногами, потому что о них не знают." name="description">
   <meta content="Крета панорама, макро, подводная, рыбки, съёмка, фотография, юг," name="keywords">
@@ -115,9 +115,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

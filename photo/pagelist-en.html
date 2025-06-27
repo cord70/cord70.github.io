@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+  <meta charset="utf-8">
+
   <title> Page list of "E.Kornienko hobby etc." </title>
   <meta content="My photographs of interesting nature, some pages on hobby." name="description">
   <meta content="background, butterfly, butterflyfish, caterpillar, coral, dangerous, flower, macrognatus, photo, underwater, water," name="keywords">
   <meta content="Eugene Kornienko" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/pagelist-en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/photo/pagelist.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/photo/pagelist-en.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="images/main.css" rel="stylesheet">
   <script defer="" src="nav.js"> </script>
@@ -1188,9 +1198,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

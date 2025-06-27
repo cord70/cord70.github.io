@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/photo/flame/index.html" rel="canonical">
-
-   <script> const dir= '/flame';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Фотографии огня, солнца, всего горящего и светящегося </title>
   <meta content="Самый горячий огонь находится на удалении от спички, а совсем рядом с головкой спички огонь почти не виден." name="description">
   <meta content="зажигание, макро, природа, разгорание, спичка, съёмка, фотография," name="keywords">
@@ -89,9 +89,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

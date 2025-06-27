@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
+  <meta charset="utf-8">
+
   <title> Вид на море с высокого берега "Крета-Панорама" </title>
   <meta content="Море с блёстками солнечного отражения. Слева и справа вид обрамляют ветви. Вдали дальний берег острова Крит." name="description">
   <meta content="горизонт, Греция, Крит, набережная, отпуск, пейзаж, природа, простор, фотография," name="keywords">
   <meta content="Евгений Корниенко" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/photo/crete/sea_view-en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/crete/sea_view.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/crete/sea_view.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../../images/main.css" rel="stylesheet">
   <script defer="" src="navCrete.js"> </script>
@@ -58,9 +68,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

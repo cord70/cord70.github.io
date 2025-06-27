@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/fabrika/50/index.html" rel="canonical">
-
-   <script> const dir= '/50';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Ровесница века - Обложка книги. Авторы: В.Молодцов, В.Потехин, 2001 </title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="https://cord70.github.io/fabrika/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
@@ -297,9 +297,6 @@
 
   <p> &nbsp; </p>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

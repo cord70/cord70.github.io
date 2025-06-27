@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/photo/red-sea-fish/triggerfish/index.html" rel="canonical">
-
-   <script> const dir= '/triggerfish';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Спинороги Красного моря </title>
   <meta content='Спинной плавник этой рыбы обычно спрятан. Выдвигается для удержания рыбки в норке между кораллами. Спинорог "Ринекант Пикассо" - красавец.' name="description">
   <meta content="живописный, зубы, иглобрюхообразные, кораллы, красное, нападает, подводное, природа, расписной, синий, смелый, спинороговые, титановый, фотография," name="keywords">
@@ -101,9 +101,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

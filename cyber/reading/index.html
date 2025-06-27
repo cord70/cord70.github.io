@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/cyber/reading/index.html" rel="canonical">
-
-   <script> const dir= '/reading';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Что читать о природе сознания </title>
   <meta content="Ссылки и отрывки из научной литературы об изучении природы сознания, об искусственном интеллекте, о поведении животных." name="description">
   <meta content="восприятие, зрение, изучение, инстинкт, интерес, исследование, мышление, нейронная, неосознанный, обучение, осознанный, подсознание, привыкание, приучение, сеть, сон, узнавание, " name="keywords">
@@ -184,9 +184,7 @@
     <li> <a href="https://www.youtube.com/watch?v=4PcL6-mjRNk" title="Кстати,
       это новая ниша рынка. Такие машины можно продавать.">
       Собака играет
-                    с машиной </a> </li> </ul>
-   
-
+                    с машиной </a> </li> </ul>
    <blockquote>
     <p> Snakes are readily taught to find the exits - and then recall
                 how to use cues to find them in successive trials. "One of
@@ -326,9 +324,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

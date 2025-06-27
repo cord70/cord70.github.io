@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/photo/animal/index.html" rel="canonical">
-
-   <script> const dir= '/animal';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Фотографии животных </title>
   <meta content="Интересные фото животных --- У одной кошки глаза могут быть красные, жёлтые и зелёные. Наша крыса держит сыр в руках. Ящерицы бегают под поверхностью песка." name="description">
   <meta content="интересные, макро, поведение, природа, съёмка, факты, фотография," name="keywords">
@@ -105,9 +105,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

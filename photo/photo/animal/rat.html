@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
+  <meta charset="utf-8">
+
   <title> Крысы едят руками </title>
   <meta content="Это наша домашняя крыса. Она держит в лапах сыр. Так делают люди, белки и другие умные животные. Собаки и кошки этого не могут." name="description">
   <meta content="домашние, животные, мышь, поведение, природа, фотография, хобби," name="keywords">
   <meta content="Евгений Корниенко" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/photo/animal/rat-en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/animal/rat.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/animal/rat.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../../images/main.css" rel="stylesheet">
   <script defer="" src="navAnimal.js"> </script>
@@ -52,9 +62,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

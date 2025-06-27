@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+  <meta charset="utf-8">
+
   <title> A burrfish - Cyclichthys spilostylus </title>
   <meta content="Thorns are placed in white spots on the back and on black spots on the stomach. Due to the thorns the fish feels safe and you may approach closely." name="description">
   <meta content="nature, night fish, photography, red sea, underwater, water," name="keywords">
   <meta content="Eugene Kornienko" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/photo/red-sea-fish/burrfish-en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/red-sea-fish/burrfish.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/red-sea-fish/burrfish-en.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../../images/main.css" rel="stylesheet">
   <script defer="" src="navRedseafish.js"> </script>
@@ -62,9 +72,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

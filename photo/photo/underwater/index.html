@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/photo/underwater/index.html" rel="canonical">
-
-   <script> const dir= '/underwater';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Плаваем с маской </title>
   <meta content="В Красном море с маской и трубкой вы будто плаваете в аквариуме. Впечатление будет ещё красочнее, если фотографировать." name="description">
   <meta content="дайвинг, красного моря, красное, ласты, макро, моря, обитатели, отпуск, подводная, рыбы, съёмка, трубка, фотография," name="keywords">
@@ -164,9 +164,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

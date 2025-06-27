@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/txt/lina/index.html" rel="canonical">
-
-   <script> const dir= '/lina';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Эвелина Корниенко, несколько стихотворений </title>
   <meta content="В глубину твоих чувств, в океан твоих глаз, В тишину твоих снов, в нежный шёлк твоих рук... С головой захлестнула эмоций волна - Это в сердце моём наступила весна." name="description">
   <meta content="любовь, начинающий, поэзия, романтика, сборник, сочинение, стихи, Эва, Эля," name="keywords">
@@ -249,9 +249,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

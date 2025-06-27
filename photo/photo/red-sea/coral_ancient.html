@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
+  <meta charset="utf-8">
+
   <title> Коралловая гора (Отпуск на Красном море) </title>
   <meta content="На пустынном Синайском полуострове много гор из твёрдых пород, и есть горы из морского песчанника со следами древних кораллов." name="description">
   <meta content="ископаемые, красное, останки, отложения, природа, синай, фотография," name="keywords">
   <meta content="Евгений Корниенко" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/photo/red-sea/coral_ancient-en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/red-sea/coral_ancient.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/red-sea/coral_ancient.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../../images/main.css" rel="stylesheet">
   <script defer="" src="navRedsea.js"> </script>
@@ -55,9 +65,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

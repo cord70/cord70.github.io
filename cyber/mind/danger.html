@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
+  <meta charset="utf-8">
+
   <title> Опасно разумен (из переписки в comp.ai.philosophy) </title>
   <meta content="Сознательные машины будут развиваться по экспоненте, потому что им не нужно тратить время на освоение того, что изучено предыдущими поколениями." name="description">
   <meta content="будущий, киборг, мыслящий, прогноз, развития, человечества, чувствующий, " name="keywords">
   <meta content="Евгений Корниенко" name="author">
-  <meta charset="utf-8">
+  
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <link href="https://cord70.github.io/cyber/mind/danger-en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/cyber/mind/danger.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/cyber/mind/danger.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/cyber/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../images/main.css" rel="stylesheet">
   <script defer="" src="navMind.js"> </script>
@@ -208,9 +218,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/photo/insect/butterfly/index.html" rel="canonical">
-
-   <script> const dir= '/butterfly';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Пёстрая бабочка (Фотографии насекомых) </title>
   <meta content="На жёлтом соцветии бабочка с черно-белой полоской вдоль края крыла. Крыло оранжево-коричневого цвета." name="description">
   <meta content="белые точки, жёлтый, интересные, коричневый, макро, насекомые, природа, фотография, цветы, чёрный," name="keywords">
@@ -111,9 +111,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

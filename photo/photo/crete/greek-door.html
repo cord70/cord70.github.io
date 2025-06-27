@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
+  <meta charset="utf-8">
+
   <title> Старинная греческая дверь </title>
   <meta content="Красивая старая дверь с аркой сфотографирована в деревне на Крите. Там же я видел двери и окна нарисованные на стенах." name="description">
   <meta content="арка, Греция, деревянная, каменная, Крит, окно, старинный, стена," name="keywords">
   <meta content="Евгений Корниенко" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/photo/crete/greek-door-en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/crete/greek-door.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/crete/greek-door.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../../images/main.css" rel="stylesheet">
   <script defer="" src="navCrete.js"> </script>
@@ -49,9 +59,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

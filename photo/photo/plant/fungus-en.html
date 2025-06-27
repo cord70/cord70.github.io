@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+  <meta charset="utf-8">
+
   <title> Bad fungus (Photos of plants) </title>
   <meta content="A group of parasite mushrooms grows on the trunk of a tree." name="description">
   <meta content="forest, hiking, horse tail, macro, neighbour, parasite, photography, trunk," name="keywords">
   <meta content="Eugene Kornienko" name="author">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta charset="utf-8">
+  
   <link href="https://cord70.github.io/photo/photo/plant/fungus-en.html" hreflang="en" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/plant/fungus.html" hreflang="ru" rel="alternate">
   <link href="https://cord70.github.io/photo/photo/plant/fungus-en.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
+
   <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
   <link href="../../images/main.css" rel="stylesheet">
   <script defer="" src="navPlant.js"> </script>
@@ -55,9 +65,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

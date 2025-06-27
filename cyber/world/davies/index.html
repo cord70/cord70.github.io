@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/cyber/world/davies/index.html" rel="canonical">
-
-   <script> const dir= '/davies';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Пол Девис. Суперсила. </title>
   <meta content="Почему должно быть четыре фундаментальных взаимодействия? Можно ли описать природу на основе одной-единственной суперсилы?" name="description">
   <meta content="антивещество, вайнберг, вакуум, виртуальных, вселенная, галактики, гравитация, импульс, инерции, инфляции, калибровочной, калуцы клейна, квантовая, кварки, лаборатории, лептонов, магнитного, максвелл, нейтрино, нейтрон, ньютон, пространство, протон, размерности, распад, салам, свет, сильное, симметрия, слабое, спин, супергравитация, суперсимметрия, суперструны, физика, фундаментальных, частиц, эйнштейн, эксперимент, электрического, электромагнитного, электрон, энергия, " name="keywords">
@@ -73,9 +73,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>

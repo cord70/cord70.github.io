@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/workshop/index.html" rel="canonical">
-
-   <script> const dir= '/workshop';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
-   </script>
-
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> Несколько самоделок </title>
   <meta content="Измеритель ёмкости аккумулятора. Грот для рыбок. Шумоглушение компьютера. Макро-лампа. Простые фото солнца и луны." name="description">
   <meta content="измерение, проверка, снижение, фотография," name="keywords">
@@ -245,9 +245,6 @@
   <footer>
   </footer>
 
-  <noscript>
-   <div>
-    
-   </div> </noscript>
+  
  </body>
 </html>
