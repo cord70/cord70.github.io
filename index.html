@@ -4,10 +4,11 @@
   <meta charset="utf-8">
   <link href="https://cord70.github.io/index.html" rel="canonical">
 
-   <script> const dir= '.io';
-     var url= window.location.href;     
-     if(url.endsWith('/')) url= url.slice(0, -1);
-     if(url.endsWith(dir)) window.location.href= url+'/index.html';
+   <script> // if we somehow here let it be the canonical URL
+     const canonical=document.querySelector("link[rel='canonical']").href;
+     const url= window.location.href;     
+     if(url!=canonical && url.includes('cord70.github.io') && !url.includes('#')) 
+       window.location.href=canonical;
    </script>
 
   <title> хобби Е.Корниенко </title>
