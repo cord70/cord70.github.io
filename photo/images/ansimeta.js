@@ -112,9 +112,12 @@ function header() {
         if (html.length == 0) // если header пустой
             h0.outerHTML =
                 '<header>' +
-                '<span class="hide-lt480px"><a href="' + refpath + homepage + '">' +
-                '<img src="' + refpath + logo + '" alt="' + alt + '" width="76" height="27"></a></span> ' +
-                '<span class="big"><a href="' + refpath + homepage + '">' + title + '</a></span>' +
+                '<p id="navstring"> </p> '+
+
+                //'<span class="hide-lt480px"><a href="' + refpath + homepage + '">' +
+                //'<img src="' + refpath + logo + '" alt="' + alt + '" width="76" height="27"></a></span> ' +
+		//'<span class="big"><a href="' + refpath + homepage + '">' + title + '</a></span>' +
+
                 '<nav><p class="hide-lt480px">' + removeSelfRef(topmenu()) + '</p></nav>' +
                 '</header>';
     }
