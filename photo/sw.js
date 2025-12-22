@@ -1,4 +1,4 @@
-// cord70.github.io/photo
+﻿// cord70.github.io/photo
 
 var updated = ['sw.js'];
 
@@ -61,7 +61,7 @@ var filesToCache = [
 // home page img
     'photo/insect/200/centipede.jpg',
     'workshop/200/accumeter2.jpg',
-    'photo/red-sea-fish/butterfly/200/black_yellow.jpg',
+    'photo/red-sea-fish/butterfly/200/black-yellow.jpg',
     'photo/red-sea/200/horizon.jpg',
     'photo/tank/200/pelvicachromis-pair.jpg',
     'photo/crete/200/greek-door.jpg',

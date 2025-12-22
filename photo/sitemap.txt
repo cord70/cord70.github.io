@@ -227,12 +227,12 @@ https://cord70.github.io/photo/photo/red-sea-fish/burrfish-face.html
 https://cord70.github.io/photo/photo/red-sea-fish/burrfish-face-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/bannerfish-side.html
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/bannerfish-side-en.html
-https://cord70.github.io/photo/photo/red-sea-fish/butterfly/black_yellow.html
-https://cord70.github.io/photo/photo/red-sea-fish/butterfly/black_yellow-en.html
+https://cord70.github.io/photo/photo/red-sea-fish/butterfly/black-yellow.html
+https://cord70.github.io/photo/photo/red-sea-fish/butterfly/black-yellow-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/blackbacked.html
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/blackbacked-en.html
-https://cord70.github.io/photo/photo/red-sea-fish/butterfly/chaetodon_fasciatus.html
-https://cord70.github.io/photo/photo/red-sea-fish/butterfly/chaetodon_fasciatus-en.html
+https://cord70.github.io/photo/photo/red-sea-fish/butterfly/chaetodon-fasciatus.html
+https://cord70.github.io/photo/photo/red-sea-fish/butterfly/chaetodon-fasciatus-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/chaetodon-fasciatus-tail.html
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/chaetodon-fasciatus-tail-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/chaetodon-paucifasciatus.html
@@ -275,8 +275,8 @@ https://cord70.github.io/photo/photo/red-sea-fish/puffer/fire-coral-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/puffer/four-teeth.html
 https://cord70.github.io/photo/photo/red-sea-fish/puffer/four-teeth-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/puffer/index.html
-https://cord70.github.io/photo/photo/red-sea-fish/scat/blue_spot.html
-https://cord70.github.io/photo/photo/red-sea-fish/scat/blue_spot-en.html
+https://cord70.github.io/photo/photo/red-sea-fish/scat/blue-spot.html
+https://cord70.github.io/photo/photo/red-sea-fish/scat/blue-spot-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/scat/deep.html
 https://cord70.github.io/photo/photo/red-sea-fish/scat/deep-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/scat/en.html
