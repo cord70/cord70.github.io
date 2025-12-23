@@ -47,11 +47,11 @@ https://cord70.github.io/cyber/science/FTL-causality.html
 https://cord70.github.io/cyber/science/hard-problems.html
 https://cord70.github.io/cyber/science/index.html
 https://cord70.github.io/cyber/science/mcirvin.html
-https://cord70.github.io/cyber/science/measure_c.html
-https://cord70.github.io/cyber/science/open_questions.html
-https://cord70.github.io/cyber/science/photon_mass.html
-https://cord70.github.io/cyber/science/see_a_photon.html
-https://cord70.github.io/cyber/science/speed_of_light.html
+https://cord70.github.io/cyber/science/measure-c.html
+https://cord70.github.io/cyber/science/open-questions.html
+https://cord70.github.io/cyber/science/photon-mass.html
+https://cord70.github.io/cyber/science/see-a-photon.html
+https://cord70.github.io/cyber/science/speed-of-light.html
 https://cord70.github.io/cyber/science/thought-experiment.html
 https://cord70.github.io/cyber/world/davies/index.html
 https://cord70.github.io/cyber/world/davies/superforce1.html

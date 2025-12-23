@@ -1,4 +1,4 @@
-// cyber
+﻿﻿// cyber
 
 var cacheName = 'pwa_v1'; // нужно менять имя при смене контента сайта
 
@@ -41,9 +41,9 @@ var filesToCache = [
     'science/FTL-causality.html',
     'science/ftl.html',
     'science/constants-change.html',
-    'science/photon_mass.html',
+    'science/photon-mass.html',
     'science/crackpot.html',
-    'science/measure_c.html',
+    'science/measure-c.html',
     'pagelist.html',
 ];
 
