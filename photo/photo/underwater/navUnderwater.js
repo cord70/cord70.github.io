@@ -1,4 +1,4 @@
-﻿﻿﻿var menu='\
+﻿﻿﻿﻿var menu='\
 <h4> Плаваем с маской</h4>\
   <p><a href="star-fish-bright.html"> Яркая звезда</a></p>\
   <p><a href="octopus.html"> Осьминог в норке</a></p>\
@@ -11,7 +11,7 @@
   <p><a href="cucumber.html"> Морской огурец</a></p>\
   <p><a href="pencil-sea-urchin.html"> Тупые иголки ежа</a></p>\
   <p><a href="sea-cucumber.html"> Голотурия</a></p>\
-  <p><a href="christmas_worm_blue.html"> Синий спиробранхус</a></p>\
+  <p><a href="christmas-worm-blue.html"> Синий спиробранхус</a></p>\
   <p><a href="christmas-worm-red.html"> Красный спиробранхус</a></p>\
   <p><a href="christmas-worm-yellow-white.html"> Жёлтый спиробранхус</a></p>\
   <p><a href="green-fish-hard-coral.html"> Зелёные рыбки</a></p>\
@@ -29,7 +29,7 @@ var menuen='\
   <p><a href="sea-cucumber-en.html"> Holothuria</a></p>\
   <p><a href="sea-urchin-en.html"> Slate-pencil sea urchin</a></p>\
   <p><a href="sky-en.html"> Sky view from the bottom</a></p>\
-  <p><a href="christmas_worm_blue-en.html"> Blue worm</a></p>\
+  <p><a href="christmas-worm-blue-en.html"> Blue worm</a></p>\
   <p><a href="christmas-worm-red-en.html"> Red worm</a></p>\
   <p><a href="christmas-worm-yellow-white-en.html"> Yellow worm</a></p>\
   <p><a href="cucumber-en.html"> Sea cucumber</a></p>\
