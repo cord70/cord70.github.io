@@ -1,4 +1,4 @@
-﻿// cord70.github.io/photo
+﻿﻿﻿﻿﻿﻿// cord70.github.io/photo
 
 var updated = ['sw.js'];
 
@@ -30,7 +30,7 @@ var filesToCache = [
     'workshop/accu-capacity.html',
     'workshop/rubik.html',
     'workshop/internal-resistance.html',
-    'workshop/fish_home.html',
+    'workshop/fish-home.html',
     'photo/red-sea-fish/index.html',
     'photo/underwater/index.html',
     'photo/red-sea-fish/triggerfish/picasso-yellow.html',
@@ -40,18 +40,18 @@ var filesToCache = [
     'photo/red-sea/index.html',
     'photo/red-sea/coral-fossil.html',
     'photo/red-sea/mosque.html',
-    'photo/red-sea/reef_heron.html',
+    'photo/red-sea/reef-heron.html',
     'photo/red-sea/rusty-ship.html',
     'photo/tank/index.html',
     'photo/tank/auratus/auratus.html',
     'photo/tank/kribs.html',
-    'photo/tank/snail_couple.html',
+    'photo/tank/snail-couple.html',
     'photo/tank/macrognatus/index.html',
     'photo/crete/index.html',
     'photo/crete/retsina.html',
-    'photo/crete/plaice_in_sand.html',
+    'photo/crete/plaice-in-sand.html',
     'photo/crete/greek-door.html',
-    'photo/crete/octopus_swims.html',
+    'photo/crete/octopus-swims.html',
     'txt/poem.html',
     'txt/omar-retouch.html',
     'txt/rubayyat.html',
