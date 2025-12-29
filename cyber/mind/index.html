@@ -1,14 +1,11 @@
-﻿﻿<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
  <head>
   <meta charset="utf-8">
   <link href="https://cord70.github.io/cyber/mind/" rel="canonical">
     <script>
-        // let it be the canonical URL
-        can = document.querySelector("link[rel='canonical']").href;
         url = window.location.href;
-        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
-            window.location.href = can;
+        if (url.includes('/index.html') && !url.includes('///')) window.location.href = url.replace('/index.html','/');
     </script>
   <title> Природа сознания </title>
   <meta content="Быстрая адаптация требует способности предвидеть (то есть сознания), а мотивом адаптации служат жизненные потребности организма." name="description">

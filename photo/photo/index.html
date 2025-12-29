@@ -1,14 +1,11 @@
-﻿﻿<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
  <head>
   <meta charset="utf-8">
   <link href="https://cord70.github.io/photo/photo/" rel="canonical">
     <script>
-        // let it be the canonical URL
-        can = document.querySelector("link[rel='canonical']").href;
         url = window.location.href;
-        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
-            window.location.href = can;
+        if (url.includes('/index.html') && !url.includes('///')) window.location.href = url.replace('/index.html','/');
     </script>
   <title> Мои удачные фотографии (Интересная природа) </title>
   <meta content="Фотографии живой и просто красивой природы - цветы и деревья, насекомые и животные, Солнце и Луна. Главное - вовремя нажать кнопку." name="description">

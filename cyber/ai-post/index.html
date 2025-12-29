@@ -1,14 +1,11 @@
-﻿﻿<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
  <head>
   <meta charset="utf-8">
   <link href="https://cord70.github.io/cyber/ai-post/" rel="canonical">
     <script>
-        // let it be the canonical URL
-        can = document.querySelector("link[rel='canonical']").href;
         url = window.location.href;
-        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
-            window.location.href = can;
+        if (url.includes('/index.html') && !url.includes('///')) window.location.href = url.replace('/index.html','/');
     </script>
   <title> О сознании и искусственном интеллекте </title>
   <meta content="Статьи из переписки в форумах о происхождении и природе сознания, о будущем естественного и искусственного сознания." name="description">
