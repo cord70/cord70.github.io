@@ -31,8 +31,9 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head> 
-    <meta name="robots" content="noindex, nofollow">
     <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+
     <meta name=viewport content="width = device-width, initial-scale = 1">
     <title> <?php echo $name ?> </title>
     <link href="../images/main.css" rel="stylesheet"> 

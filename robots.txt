@@ -1,4 +1,3 @@
-Sitemap: https://cord70.github.io/sitemap/sitemap.xml
 User-Agent: * 
-Disallow: /fabrika/ksi/
-Disallow: /photo/da4a/
+Disallow:
+Sitemap: https://cord70.github.io/sitemap.xml
