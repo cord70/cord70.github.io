@@ -7,12 +7,12 @@ https://cord70.github.io/cyber/ai-post/brain.html
 https://cord70.github.io/cyber/ai-post/copying.html
 https://cord70.github.io/cyber/ai-post/definition.html
 https://cord70.github.io/cyber/ai-post/future.html
-https://cord70.github.io/cyber/ai-post/index.html
+https://cord70.github.io/cyber/ai-post/
 https://cord70.github.io/cyber/ai-post/motor.html
 https://cord70.github.io/cyber/ai-post/sense.html
 https://cord70.github.io/cyber/ai-post/will.html
 https://cord70.github.io/cyber/en.html
-https://cord70.github.io/cyber/index.html
+https://cord70.github.io/cyber/
 https://cord70.github.io/cyber/mind/articles.html
 https://cord70.github.io/cyber/mind/consciousness.html
 https://cord70.github.io/cyber/mind/consciousness-en.html
@@ -22,7 +22,7 @@ https://cord70.github.io/cyber/mind/emergent.html
 https://cord70.github.io/cyber/mind/feel.html
 https://cord70.github.io/cyber/mind/how-we-see.html
 https://cord70.github.io/cyber/mind/ideal.html
-https://cord70.github.io/cyber/mind/index.html
+https://cord70.github.io/cyber/mind/
 https://cord70.github.io/cyber/mind/prove.html
 https://cord70.github.io/cyber/mind/prove-en.html
 https://cord70.github.io/cyber/mind/question.html
@@ -31,7 +31,7 @@ https://cord70.github.io/cyber/post/email-en.html
 https://cord70.github.io/cyber/post/site.html
 https://cord70.github.io/cyber/reading/deprivation.html
 https://cord70.github.io/cyber/reading/habituation.html
-https://cord70.github.io/cyber/reading/index.html
+https://cord70.github.io/cyber/reading/
 https://cord70.github.io/cyber/reading/krushinsky.html
 https://cord70.github.io/cyber/reading/memory.html
 https://cord70.github.io/cyber/reading/ps-prior-awareness.html
@@ -45,7 +45,7 @@ https://cord70.github.io/cyber/science/dni.html
 https://cord70.github.io/cyber/science/ftl.html
 https://cord70.github.io/cyber/science/FTL-causality.html
 https://cord70.github.io/cyber/science/hard-problems.html
-https://cord70.github.io/cyber/science/index.html
+https://cord70.github.io/cyber/science/
 https://cord70.github.io/cyber/science/mcirvin.html
 https://cord70.github.io/cyber/science/measure-c.html
 https://cord70.github.io/cyber/science/open-questions.html
@@ -53,7 +53,7 @@ https://cord70.github.io/cyber/science/photon-mass.html
 https://cord70.github.io/cyber/science/see-a-photon.html
 https://cord70.github.io/cyber/science/speed-of-light.html
 https://cord70.github.io/cyber/science/thought-experiment.html
-https://cord70.github.io/cyber/world/davies/index.html
+https://cord70.github.io/cyber/world/davies/
 https://cord70.github.io/cyber/world/davies/superforce1.html
 https://cord70.github.io/cyber/world/davies/superforce10.html
 https://cord70.github.io/cyber/world/davies/superforce11.html
@@ -70,7 +70,7 @@ https://cord70.github.io/cyber/world/davies/superforce8.html
 https://cord70.github.io/cyber/world/davies/superforce9.html
 https://cord70.github.io/cyber/world/existence.html
 https://cord70.github.io/cyber/world/existence-en.html
-https://cord70.github.io/cyber/world/index.html
+https://cord70.github.io/cyber/world/
 https://cord70.github.io/cyber/world/self-support.html
 https://cord70.github.io/cyber/world/space.html
 https://cord70.github.io/cyber/world/space-en.html
@@ -203,11 +203,11 @@ https://cord70.github.io/fabrika/50/125.html
 https://cord70.github.io/fabrika/50/126.html
 https://cord70.github.io/fabrika/50/127.html
 https://cord70.github.io/fabrika/50/128.html
-https://cord70.github.io/fabrika/50/index.html
-https://cord70.github.io/fabrika/index.html
+https://cord70.github.io/fabrika/50/
+https://cord70.github.io/fabrika/
 
 https://cord70.github.io/photo/en.html
-https://cord70.github.io/photo/index.html
+https://cord70.github.io/photo/
 https://cord70.github.io/photo/photo/animal/cats-eye.html
 https://cord70.github.io/photo/photo/animal/cats-eye-en.html
 https://cord70.github.io/photo/photo/animal/deer-face.html
@@ -216,7 +216,7 @@ https://cord70.github.io/photo/photo/animal/eat-less.html
 https://cord70.github.io/photo/photo/animal/en.html
 https://cord70.github.io/photo/photo/animal/frog-pond.html
 https://cord70.github.io/photo/photo/animal/frog-portrait.html
-https://cord70.github.io/photo/photo/animal/index.html
+https://cord70.github.io/photo/photo/animal/
 https://cord70.github.io/photo/photo/animal/rat.html
 https://cord70.github.io/photo/photo/animal/rat-en.html
 https://cord70.github.io/photo/photo/animal/salamandra.html
@@ -230,7 +230,7 @@ https://cord70.github.io/photo/photo/animal/squirrel.html
 https://cord70.github.io/photo/photo/animal/squirrel-en.html
 https://cord70.github.io/photo/photo/astro/en.html
 https://cord70.github.io/photo/photo/astro/grasshoper-test.html
-https://cord70.github.io/photo/photo/astro/index.html
+https://cord70.github.io/photo/photo/astro/
 https://cord70.github.io/photo/photo/astro/lomonosov.html
 https://cord70.github.io/photo/photo/astro/lomonosov-text.html
 https://cord70.github.io/photo/photo/astro/mercury-sun.html
@@ -252,7 +252,7 @@ https://cord70.github.io/photo/photo/bird/eagle-flight-en.html
 https://cord70.github.io/photo/photo/bird/en.html
 https://cord70.github.io/photo/photo/bird/flamingo.html
 https://cord70.github.io/photo/photo/bird/flamingo-en.html
-https://cord70.github.io/photo/photo/bird/index.html
+https://cord70.github.io/photo/photo/bird/
 https://cord70.github.io/photo/photo/bird/ostrich.html
 https://cord70.github.io/photo/photo/bird/ostrich-en.html
 https://cord70.github.io/photo/photo/bird/pigeon.html
@@ -274,7 +274,7 @@ https://cord70.github.io/photo/photo/blossom/flowering.html
 https://cord70.github.io/photo/photo/blossom/flowering-en.html
 https://cord70.github.io/photo/photo/blossom/foalfoot.html
 https://cord70.github.io/photo/photo/blossom/foalfoot-en.html
-https://cord70.github.io/photo/photo/blossom/index.html
+https://cord70.github.io/photo/photo/blossom/
 https://cord70.github.io/photo/photo/blossom/mothy.html
 https://cord70.github.io/photo/photo/blossom/mothy-en.html
 https://cord70.github.io/photo/photo/blossom/plum-flower.html
@@ -290,7 +290,7 @@ https://cord70.github.io/photo/photo/crete/geese-at-lake.html
 https://cord70.github.io/photo/photo/crete/geese-at-lake-en.html
 https://cord70.github.io/photo/photo/crete/greek-door.html
 https://cord70.github.io/photo/photo/crete/greek-door-en.html
-https://cord70.github.io/photo/photo/crete/index.html
+https://cord70.github.io/photo/photo/crete/
 https://cord70.github.io/photo/photo/crete/octopus-swims.html
 https://cord70.github.io/photo/photo/crete/octopus-swims-en.html
 https://cord70.github.io/photo/photo/crete/octopus-young.html
@@ -313,10 +313,10 @@ https://cord70.github.io/photo/photo/flame/candle-en.html
 https://cord70.github.io/photo/photo/flame/en.html
 https://cord70.github.io/photo/photo/flame/hot-flame.html
 https://cord70.github.io/photo/photo/flame/hot-flame-en.html
-https://cord70.github.io/photo/photo/flame/index.html
+https://cord70.github.io/photo/photo/flame/
 https://cord70.github.io/photo/photo/flame/match-sparks.html
 https://cord70.github.io/photo/photo/flame/match-sparks-en.html
-https://cord70.github.io/photo/photo/index.html
+https://cord70.github.io/photo/photo/
 https://cord70.github.io/photo/photo/insect/bee-fly.html
 https://cord70.github.io/photo/photo/insect/bee-fly-dandelion.html
 https://cord70.github.io/photo/photo/insect/bee-fly-dandelion-en.html
@@ -332,7 +332,7 @@ https://cord70.github.io/photo/photo/insect/butterfly/caterpillar-feeds-en.html
 https://cord70.github.io/photo/photo/insect/butterfly/en.html
 https://cord70.github.io/photo/photo/insect/butterfly/green-caterpillar.html
 https://cord70.github.io/photo/photo/insect/butterfly/green-caterpillar-en.html
-https://cord70.github.io/photo/photo/insect/butterfly/index.html
+https://cord70.github.io/photo/photo/insect/butterfly/
 https://cord70.github.io/photo/photo/insect/butterfly/orange-moth.html
 https://cord70.github.io/photo/photo/insect/butterfly/orange-moth-en.html
 https://cord70.github.io/photo/photo/insect/butterfly/polyommatus-icarus.html
@@ -368,7 +368,7 @@ https://cord70.github.io/photo/photo/insect/hornet.html
 https://cord70.github.io/photo/photo/insect/hornet-en.html
 https://cord70.github.io/photo/photo/insect/hornet-flying.html
 https://cord70.github.io/photo/photo/insect/hornet-flying-en.html
-https://cord70.github.io/photo/photo/insect/index.html
+https://cord70.github.io/photo/photo/insect/
 https://cord70.github.io/photo/photo/insect/insect-dance.html
 https://cord70.github.io/photo/photo/insect/insect-dance-en.html
 https://cord70.github.io/photo/photo/insect/mosquito-enlarged.html
@@ -388,7 +388,7 @@ https://cord70.github.io/photo/photo/plant/frosty-fir.html
 https://cord70.github.io/photo/photo/plant/frosty-fir-en.html
 https://cord70.github.io/photo/photo/plant/fungus.html
 https://cord70.github.io/photo/photo/plant/fungus-en.html
-https://cord70.github.io/photo/photo/plant/index.html
+https://cord70.github.io/photo/photo/plant/
 https://cord70.github.io/photo/photo/plant/maple-leaflet.html
 https://cord70.github.io/photo/photo/plant/maple-leaflet-en.html
 https://cord70.github.io/photo/photo/plant/pine-tree.html
@@ -410,7 +410,7 @@ https://cord70.github.io/photo/photo/red-sea/coral-fossil-en.html
 https://cord70.github.io/photo/photo/red-sea/en.html
 https://cord70.github.io/photo/photo/red-sea/horizon.html
 https://cord70.github.io/photo/photo/red-sea/horizon-en.html
-https://cord70.github.io/photo/photo/red-sea/index.html
+https://cord70.github.io/photo/photo/red-sea/
 https://cord70.github.io/photo/photo/red-sea/mosque.html
 https://cord70.github.io/photo/photo/red-sea/mosque-en.html
 https://cord70.github.io/photo/photo/red-sea/reef-heron.html
@@ -450,7 +450,7 @@ https://cord70.github.io/photo/photo/red-sea-fish/butterfly/diagonal-blue-en.htm
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/en.html
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/face.html
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/face-en.html
-https://cord70.github.io/photo/photo/red-sea-fish/butterfly/index.html
+https://cord70.github.io/photo/photo/red-sea-fish/butterfly/
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/masked.html
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/masked-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/butterfly/masked-pair.html
@@ -462,7 +462,7 @@ https://cord70.github.io/photo/photo/red-sea-fish/diodon-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/en.html
 https://cord70.github.io/photo/photo/red-sea-fish/hawkfish.html
 https://cord70.github.io/photo/photo/red-sea-fish/hawkfish-en.html
-https://cord70.github.io/photo/photo/red-sea-fish/index.html
+https://cord70.github.io/photo/photo/red-sea-fish/
 https://cord70.github.io/photo/photo/red-sea-fish/lion-fish.html
 https://cord70.github.io/photo/photo/red-sea-fish/lion-fish-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/lion-fish-side.html
@@ -482,13 +482,13 @@ https://cord70.github.io/photo/photo/red-sea-fish/puffer/fire-coral.html
 https://cord70.github.io/photo/photo/red-sea-fish/puffer/fire-coral-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/puffer/four-teeth.html
 https://cord70.github.io/photo/photo/red-sea-fish/puffer/four-teeth-en.html
-https://cord70.github.io/photo/photo/red-sea-fish/puffer/index.html
+https://cord70.github.io/photo/photo/red-sea-fish/puffer/
 https://cord70.github.io/photo/photo/red-sea-fish/scat/blue-spot.html
 https://cord70.github.io/photo/photo/red-sea-fish/scat/blue-spot-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/scat/deep.html
 https://cord70.github.io/photo/photo/red-sea-fish/scat/deep-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/scat/en.html
-https://cord70.github.io/photo/photo/red-sea-fish/scat/index.html
+https://cord70.github.io/photo/photo/red-sea-fish/scat/
 https://cord70.github.io/photo/photo/red-sea-fish/scat/over-coral.html
 https://cord70.github.io/photo/photo/red-sea-fish/scat/over-coral-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/scat/stingray-blue-spotted-en.html
@@ -502,7 +502,7 @@ https://cord70.github.io/photo/photo/red-sea-fish/surgeon-fish-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/triggerfish/en.html
 https://cord70.github.io/photo/photo/red-sea-fish/triggerfish/filefish.html
 https://cord70.github.io/photo/photo/red-sea-fish/triggerfish/filefish-en.html
-https://cord70.github.io/photo/photo/red-sea-fish/triggerfish/index.html
+https://cord70.github.io/photo/photo/red-sea-fish/triggerfish/
 https://cord70.github.io/photo/photo/red-sea-fish/triggerfish/picasso-fin.html
 https://cord70.github.io/photo/photo/red-sea-fish/triggerfish/picasso-fin-en.html
 https://cord70.github.io/photo/photo/red-sea-fish/triggerfish/picasso-grey.html
@@ -522,7 +522,7 @@ https://cord70.github.io/photo/photo/tank/auratus/female.html
 https://cord70.github.io/photo/photo/tank/auratus/female-en.html
 https://cord70.github.io/photo/photo/tank/auratus/female-mature.html
 https://cord70.github.io/photo/photo/tank/auratus/female-mature-en.html
-https://cord70.github.io/photo/photo/tank/auratus/index.html
+https://cord70.github.io/photo/photo/tank/auratus/
 https://cord70.github.io/photo/photo/tank/auratus/male.html
 https://cord70.github.io/photo/photo/tank/auratus/male-en.html
 https://cord70.github.io/photo/photo/tank/big-scalare.html
@@ -534,7 +534,7 @@ https://cord70.github.io/photo/photo/tank/fish-home-tank.html
 https://cord70.github.io/photo/photo/tank/fish-home-tank-en.html
 https://cord70.github.io/photo/photo/tank/fish-yawn.html
 https://cord70.github.io/photo/photo/tank/fish-yawn-en.html
-https://cord70.github.io/photo/photo/tank/index.html
+https://cord70.github.io/photo/photo/tank/
 https://cord70.github.io/photo/photo/tank/kribs.html
 https://cord70.github.io/photo/photo/tank/kribs-en.html
 https://cord70.github.io/photo/photo/tank/macrognatus/en.html
@@ -542,7 +542,7 @@ https://cord70.github.io/photo/photo/tank/macrognatus/head.html
 https://cord70.github.io/photo/photo/tank/macrognatus/head-en.html
 https://cord70.github.io/photo/photo/tank/macrognatus/hole.html
 https://cord70.github.io/photo/photo/tank/macrognatus/hole-en.html
-https://cord70.github.io/photo/photo/tank/macrognatus/index.html
+https://cord70.github.io/photo/photo/tank/macrognatus/
 https://cord70.github.io/photo/photo/tank/macrognatus/out.html
 https://cord70.github.io/photo/photo/tank/macrognatus/out-en.html
 https://cord70.github.io/photo/photo/tank/macrognatus/tail.html
@@ -580,7 +580,7 @@ https://cord70.github.io/photo/photo/underwater/coral/fire-macro.html
 https://cord70.github.io/photo/photo/underwater/coral/fire-macro-en.html
 https://cord70.github.io/photo/photo/underwater/coral/gardineroseris.html
 https://cord70.github.io/photo/photo/underwater/coral/gardineroseris-en.html
-https://cord70.github.io/photo/photo/underwater/coral/index.html
+https://cord70.github.io/photo/photo/underwater/coral/
 https://cord70.github.io/photo/photo/underwater/coral/sarcophyton.html
 https://cord70.github.io/photo/photo/underwater/coral/sarcophyton-en.html
 https://cord70.github.io/photo/photo/underwater/coral/soft.html
@@ -594,7 +594,7 @@ https://cord70.github.io/photo/photo/underwater/fish-coral-shadow.html
 https://cord70.github.io/photo/photo/underwater/fish-coral-shadow-en.html
 https://cord70.github.io/photo/photo/underwater/green-fish-hard-coral.html
 https://cord70.github.io/photo/photo/underwater/green-fish-hard-coral-en.html
-https://cord70.github.io/photo/photo/underwater/index.html
+https://cord70.github.io/photo/photo/underwater/
 https://cord70.github.io/photo/photo/underwater/jellyfish.html
 https://cord70.github.io/photo/photo/underwater/jellyfish-en.html
 https://cord70.github.io/photo/photo/underwater/octopus.html
@@ -614,10 +614,10 @@ https://cord70.github.io/photo/photo/underwater/view-en.html
 https://cord70.github.io/photo/photo/view/en.html
 https://cord70.github.io/photo/photo/view/forest.html
 https://cord70.github.io/photo/photo/view/forest-en.html
-https://cord70.github.io/photo/photo/view/index.html
+https://cord70.github.io/photo/photo/view/
 https://cord70.github.io/photo/photo/view/steel-spring.html
 https://cord70.github.io/photo/photo/view/steel-spring-en.html
-https://cord70.github.io/photo/photo/water/index.html
+https://cord70.github.io/photo/photo/water/
 https://cord70.github.io/photo/photo/water/water-form.html
 https://cord70.github.io/photo/photo/water/en.html
 https://cord70.github.io/photo/photo/water/rainy-bog-en.html
@@ -661,7 +661,7 @@ https://cord70.github.io/photo/workshop/fish-home-en.html
 https://cord70.github.io/photo/workshop/HP-C200.html
 https://cord70.github.io/photo/workshop/HP-C200-en.html
 https://cord70.github.io/photo/workshop/hyperloop.html
-https://cord70.github.io/photo/workshop/index.html
+https://cord70.github.io/photo/workshop/
 https://cord70.github.io/photo/workshop/internal-resistance.html
 https://cord70.github.io/photo/workshop/noiseless.html
 https://cord70.github.io/photo/workshop/noiseless-en.html
@@ -669,7 +669,7 @@ https://cord70.github.io/photo/workshop/pond/bush.html
 https://cord70.github.io/photo/workshop/pond/ornamental-pond.html
 https://cord70.github.io/photo/workshop/pond/water-for-pond.html
 https://cord70.github.io/photo/workshop/pro/delta-homes.html
-https://cord70.github.io/photo/workshop/pro/index.html
+https://cord70.github.io/photo/workshop/pro/
 https://cord70.github.io/photo/workshop/pro/RemoveCrLfTabDSpace.html
 https://cord70.github.io/photo/workshop/pro/ReplaceStr.html
 https://cord70.github.io/photo/workshop/pro/axisvideo.html
@@ -1345,5 +1345,5 @@ https://cord70.github.io/tarmo/2001-01.htm
 https://cord70.github.io/tarmo/2001-02.htm
 https://cord70.github.io/tarmo/2001-03.htm
 https://cord70.github.io/tarmo/about.html
-https://cord70.github.io/tarmo/index.html
+https://cord70.github.io/tarmo/
 
