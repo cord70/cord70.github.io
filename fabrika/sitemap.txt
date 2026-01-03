@@ -126,6 +126,6 @@ https://cord70.github.io/fabrika/50/125.html
 https://cord70.github.io/fabrika/50/126.html
 https://cord70.github.io/fabrika/50/127.html
 https://cord70.github.io/fabrika/50/128.html
-https://cord70.github.io/fabrika/50/index.html
-https://cord70.github.io/fabrika/index.html
+https://cord70.github.io/fabrika/50/
+https://cord70.github.io/fabrika/
 

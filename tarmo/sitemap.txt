@@ -666,5 +666,5 @@ https://cord70.github.io/tarmo/2001-01.htm
 https://cord70.github.io/tarmo/2001-02.htm
 https://cord70.github.io/tarmo/2001-03.htm
 https://cord70.github.io/tarmo/about.html
-https://cord70.github.io/tarmo/index.html
+https://cord70.github.io/tarmo/
 
