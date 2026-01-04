@@ -10,8 +10,8 @@
   <p><a href="parrot-fish.html"> Рыба попугай</a></p>\
   <p><a href="anthias.html"> Псевдантиас</a></p>\
   <p><a href="burrfish-face.html"> Большие глаза</a></p>\
-  <p><a href="needlefish.html"> Рыба-игла</a></p>\
   <p><a href="burrfish.html"> Рыба ёж</a></p>\
+  <p><a href="needlefish.html"> Рыба-игла</a></p>\
   <p><a href="diodon.html"> Рыба ёж Diodon</a></p>\
   <p><a href="surgeon-fish-pair.html"> Два хирурга</a></p>\
   <p><a href="surgeon-fish.html"> Рыба хирург</a></p>\
@@ -22,21 +22,21 @@
 
 var menuen='\
 <h4><a href="en.html"> Red Sea Fish</a></h4>\
-  <p><a href="amphiprion-en.html"> Amphiprion</a></p>\
   <p><a href="hawkfish-en.html"> Hawkfish</a></p>\
-  <p><a href="black-spotted-grunt-en.html"> Black-spotted grunt</a></p>\
   <p><a href="angelfish-en.html"> Arabian angel fish</a></p>\
-  <p><a href="needlefish-en.html"> Needle-fish</a></p>\
+  <p><a href="amphiprion-en.html"> Amphiprion</a></p>\
+  <p><a href="black-spotted-grunt-en.html"> Black-spotted grunt</a></p>\
   <p><a href="lion-fish-en.html"> Lion fish</a></p>\
   <p><a href="lion-fish-side-en.html"> Lion fish</a></p>\
-  <p><a href="anthias-en.html"> Anthias</a></p>\
+  <p><a href="orangespine-unicornfish-en.html"> Unicornfish</a></p>\
   <p><a href="parrot-fish-en.html"> Parrot fish</a></p>\
-  <p><a href="burrfish-en.html"> Burrfish</a></p>\
+  <p><a href="anthias-en.html"> Anthias</a></p>\
   <p><a href="burrfish-face-en.html"> Big eyes</a></p>\
+  <p><a href="burrfish-en.html"> Burrfish</a></p>\
+  <p><a href="needlefish-en.html"> Needle-fish</a></p>\
   <p><a href="diodon-en.html"> Diodon</a></p>\
   <p><a href="surgeon-fish-pair-en.html"> Two Surgeons</a></p>\
   <p><a href="surgeon-fish-en.html"> Surgeon fish</a></p>\
-  <p><a href="orangespine-unicornfish-en.html"> Unicornfish</a></p>\
 <h4><a href="scat/en.html"> Taeniura limma</a></h4>\
 <h4><a href="puffer/en.html"> Masked puffer</a></h4>\
 <h4><a href="butterfly/en.html"> Butterfly fish</a></h4>\
