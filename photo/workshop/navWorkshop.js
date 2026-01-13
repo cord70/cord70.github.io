@@ -8,7 +8,7 @@
 <h4><a href="da4a/da4a.html"> Дача и пруд</a></h4>\
 <h4> Аквариум</h4>\
   <p><a href="fish-home.html"> Грот в аквариуме</a></p>\
-  <p><a href="co2/generator-co2.html"> Генератор CO2</a></p>\
+  <p><a href="co2/index.html"> Генератор CO2</a></p>\
 <h4> Аккумулятор</h4>\
   <p><a href="accu-capacity.html"> Измерение ёмкости</a></p>\
   <p><a href="accu-meter-circuitry.html"> Пример платы</a></p>\

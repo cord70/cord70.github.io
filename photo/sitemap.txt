@@ -425,7 +425,7 @@ https://cord70.github.io/photo/photo/water/fir-water-en.html
 https://cord70.github.io/photo/photo/water/shower-en.html
 https://cord70.github.io/photo/photo/water/water-form-en.html
 https://cord70.github.io/photo/photo/water/falling-drop-en.html
-https://cord70.github.io/photo/post/email.html
+https://cord70.github.io/photo/post/
 https://cord70.github.io/photo/post/email-en.html
 https://cord70.github.io/photo/txt/love-me.html
 https://cord70.github.io/photo/txt/omar.html
@@ -443,7 +443,7 @@ https://cord70.github.io/photo/workshop/accu-meter-circuitry.html
 https://cord70.github.io/photo/workshop/accu-meter-circuitry-en.html
 https://cord70.github.io/photo/workshop/blink-stereo.html
 https://cord70.github.io/photo/workshop/co2/experiment-co2.html
-https://cord70.github.io/photo/workshop/co2/generator-co2.html
+https://cord70.github.io/photo/workshop/co2/
 https://cord70.github.io/photo/workshop/costa-concordia.html
 https://cord70.github.io/photo/workshop/da4a/adc.html
 https://cord70.github.io/photo/workshop/da4a/da4a.html
@@ -459,7 +459,7 @@ https://cord70.github.io/photo/workshop/internal-resistance.html
 https://cord70.github.io/photo/workshop/noiseless.html
 https://cord70.github.io/photo/workshop/noiseless-en.html
 https://cord70.github.io/photo/workshop/pond/bush.html
-https://cord70.github.io/photo/workshop/pond/ornamental-pond.html
+https://cord70.github.io/photo/workshop/pond/
 https://cord70.github.io/photo/workshop/pond/water-for-pond.html
 https://cord70.github.io/photo/workshop/pro/delta-homes.html
 https://cord70.github.io/photo/workshop/pro/

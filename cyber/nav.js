@@ -2,7 +2,7 @@ var menu='\
 <h4> сайт cord70.github.io/cyber</h4>\
   <p><a href="mind/consciousness.html"> Механизмы сознания</a></p>\
   <p><a href="mind/articles.html"> Статьи о природе сознания</a></p>\
-  <p><a href="ai/ai.html"> О конструкции ощущающей машины</a></p>\
+  <p><a href="ai/index.html"> О конструкции ощущающей машины</a></p>\
   <p><a href="world/space.html"> Происхождение пространства</a></p>\
   <p><a href="science/index.html"> Сложные задачи</a></p>\
   <p><a href="science/FTL-causality.html"> Пример нарушения причинности</a></p>\

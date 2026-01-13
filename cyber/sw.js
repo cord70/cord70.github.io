@@ -22,7 +22,7 @@ var filesToCache = [
 
 // home page links
     'mind/index.html',
-    'ai/ai.html',
+    'ai/index.html',
     'ai/sense.html',
     'mind/emergent.html',
     'reading/seeing.html',

@@ -62,7 +62,7 @@
     </div>
 
     <div class="left"> 
-      <a href="da4a.html">
+      <a href="index.html">
         <img src="../images/house-64.png" title="da4a">
       </a>
     </div>

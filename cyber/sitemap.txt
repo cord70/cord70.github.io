@@ -1,4 +1,4 @@
-https://cord70.github.io/cyber/ai/ai.html
+https://cord70.github.io/cyber/ai/
 https://cord70.github.io/cyber/ai/algorithm.html
 https://cord70.github.io/cyber/ai/sense.html
 https://cord70.github.io/cyber/ai/task.html
@@ -26,7 +26,7 @@ https://cord70.github.io/cyber/mind/
 https://cord70.github.io/cyber/mind/prove.html
 https://cord70.github.io/cyber/mind/prove-en.html
 https://cord70.github.io/cyber/mind/question.html
-https://cord70.github.io/cyber/post/email.html
+https://cord70.github.io/cyber/post/
 https://cord70.github.io/cyber/post/email-en.html
 https://cord70.github.io/cyber/post/site.html
 https://cord70.github.io/cyber/reading/deprivation.html

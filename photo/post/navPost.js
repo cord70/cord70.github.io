@@ -7,4 +7,4 @@ var menu='\
 var menuen='\
 <h4> the site cord70.github.io/photo</h4>\
   <p><a href="../search-en.html"> Search at this site</a></p>\
-  <p><a href="email.html"> Русская страница</a></p>';
+  <p><a href="index.html"> Русская страница</a></p>';

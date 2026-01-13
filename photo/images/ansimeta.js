@@ -56,7 +56,7 @@ addScrollEvent(onLazyScroll);
 
 var homepage = 'index.html';
 var comments = 'Комментарии';
-var email = 'post/email.html';
+var email = 'post/index.html';
 var email_title = 'автор';
 var path = window.location.pathname; // путь внутри домена например /txt/love-me.html
 var page = path.split("/").pop(); // имя файла например love-me.html

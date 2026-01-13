@@ -1,6 +1,6 @@
 var menu=
 '<h4><a href="../mind/index.html"> Природа сознания</a></h4>\
-<h4><a href="../ai/ai.html"> Поиск конструкции AI</a></h4>\
+<h4><a href="../ai/index.html"> Поиск конструкции AI</a></h4>\
 <h4><a href="index.html"> Рабочий черновик</a></h4>\
   <p><a href="AI-1996.html"> ИИ и сознание 1996</a></p>\
   <p><a href="AI-1997a.html"> ИИ и сознание 1997a</a></p>\
