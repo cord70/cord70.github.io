@@ -77,7 +77,7 @@ var refurl = homepage; // адрес относительно домена
 var scripts = document.getElementsByTagName('script'); // никогда не null
 for (var i = 0; i < scripts.length; i++) {
     if (scripts[i].src.indexOf('ansimeta.js') > 0) { // путь к ansimeta.js должен быть относительным
-        var html = scripts[i].outerHTML; // пример <script src="../../../images/ansimeta.js"></script>
+        var html = scripts[i].outerHTML; // пример <script src="../../../images/ansimeta.js" charset="UTF-8"></script>
         var p1 = html.indexOf('../');
         var p2 = html.lastIndexOf('../') + 3;
         if (p1 > 0) refpath = html.substring(p1, p2); // пример ../../../

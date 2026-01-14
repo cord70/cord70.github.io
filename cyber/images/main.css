@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* cyber tarmo photo fabrika */
 
 @media print {.noprint, .foot1, .leftnav {display: none;}}
