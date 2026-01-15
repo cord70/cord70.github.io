@@ -36,7 +36,7 @@
 
     <meta name=viewport content="width = device-width, initial-scale = 1">
     <title> <?php echo $name ?> </title>
-    <link href="../images/main.css" rel="stylesheet"> 
+    <link href="/img/main.css" rel="stylesheet"> 
   </head>
 
   <body>
