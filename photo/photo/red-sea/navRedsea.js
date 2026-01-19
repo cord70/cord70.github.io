@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿﻿var menu='\
+var menu='\
 <h4> На Красном море</h4>\
   <p><a href="reef-heron.html"> Рифовая цапля</a></p>\
   <p><a href="coral-ancient.html"> Коралловая гора</a></p>\
@@ -27,3 +27,11 @@ var menuen='\
   <p><a href="rusty-ship-en.html"> A ship at reef</a></p>\
   <p><a href="conrad-map-en.html"> Conrad Google map</a></p>\
 <h4><a href="../red-sea-fish/en.html"> Red Sea Fish</a></h4>';
+
+var refpath="../../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+

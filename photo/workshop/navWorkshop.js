@@ -1,4 +1,4 @@
-﻿var menu='\
+var menu='\
 <h4> Самоделки</h4>\
   <p><a href="rubik.html"> Сборка кубика Рубика</a></p>\
   <p><a href="HP-C200.html"> Макро мыльницей</a></p>\
@@ -28,3 +28,11 @@ var menuen='\
   <p><a href="accu-meter2-en.html"> • Example for AA</a></p>\
   <p><a href="noiseless-en.html"> Noiseless computer</a></p>\
   <p><a href="HP-C200-en.html"> Macro with a p/s camera</a></p>';
+
+var refpath="../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+

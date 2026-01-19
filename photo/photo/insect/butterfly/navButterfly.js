@@ -25,3 +25,11 @@ var menuen='\
   <p><a href="green-caterpillar-en.html"> Fat caterpillar</a></p>\
   <p><a href="spotted-orange-en.html"> Orange rim butterfly</a></p>\
   <p><a href="yellow-flower-en.html"> Butterfly on flower</a></p>';
+
+var refpath="../../../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+

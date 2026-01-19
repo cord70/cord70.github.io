@@ -1,4 +1,4 @@
-// cord70.github.io/tarmo
+// tarmo
 
 //var googlecounter='UA-9493768-5';
 var googlecounter='G-R0FRG6NEF1';
@@ -8,7 +8,7 @@ var alt = 'logo - Механизмы сознания';
 var alt_en = 'logo - Mechanisms of Consciousness';
 var title = 'Механизмы сознания';
 var title_en = 'Mechanisms of Consciousness';
-var logo = 'images/home.gif';
+var logo = refpath+'images/home.gif';
 
 function topmenu() {
     if (pagelang == 'ru') {
@@ -20,7 +20,7 @@ function topmenu() {
 }
 
 
-// cord70.github.io/photo cord70.github.io/cyber cord70.github.io/tarmo 
+// photo cyber tarmo 
 
 // lazy counters
 var scrolldone = false;
@@ -66,24 +66,11 @@ if (authors.length > 0) author = authors[0].content;
 
 
 // определение относительного адреса и пути
-var refpath = ''; // путь возвращения к домену в виде последовательных ../
-var refurl = homepage; // адрес относительно домена
-var scripts = document.getElementsByTagName('script'); // никогда не null
-for (var i = 0; i < scripts.length; i++) {
-    if (scripts[i].src.indexOf('ansimeta.js') > 0) { // путь к ansimeta.js должен быть относительным
-        var html = scripts[i].outerHTML; // пример <script src="../../../images/ansimeta.js" charset="UTF-8"></script>
-        var p1 = html.indexOf('../');
-        var p2 = html.lastIndexOf('../') + 3;
-        if (p1 > 0) refpath = html.substring(p1, p2); // пример ../../../
-        var pathlevel = (refpath.match(/\.\.\//g) || []).length; // сколько раз встречается ../ , пример 3
-        refurl = window.location.pathname; // пример /photo/underwater/coral/index.html
-        if (refurl[refurl.length - 1] == '/') refurl = refurl + homepage; // endsWith() не работает в IE
-        while ((refurl.match(/\//g) || []).length > pathlevel)
-            refurl = refurl.substring(refurl.indexOf('/') + 1); // пример photo/underwater/coral/index.html
-        break;
-    }
-}
-
+ var pathlevel =  refpath.split("/").filter(Boolean).length; // число слешей
+ var refurl = window.location.pathname; // /photo/underwater/coral/index.html адрес относительно домена
+ if (refurl[refurl.length - 1] == '/') refurl = refurl + homepage; // endsWith() for IE
+ while(refurl.split("/").filter(Boolean).length>pathlevel+1) refurl=refurl.substring(1); // /photo/flame/candle.html
+ refurl=refurl.substring(1); // photo/flame/candle.html
 
 header();
 navstring();
@@ -105,7 +92,7 @@ function header() {
                 '<p id="navstring"> </p> '+
 
                 //'<span class="hide-lt480px"><a href="' + refpath + homepage + '">' +
-                //'<img src="' + refpath + logo + '" alt="' + alt + '" width="76" height="27"></a></span> ' +
+                //'<img src="' + logo + '" alt="' + alt + '" width="76" height="27"></a></span> ' +
                 //'<span class="big"><a href="' + refpath + homepage + '">' + title + '</a></span>' +
 
                 '<nav><p class="hide-lt480px">' + removeSelfRef(topmenu()) + '</p></nav>' +
@@ -149,7 +136,7 @@ function navstring() {//вывод навигации в виде строки
     } while (p1 >= 0);
 
     html = '<a href="' + refpath + homepage + '">' +
-        '<img src="' + refpath + logo + '" alt="ref to home page" title="home page"></a> ' + html;
+        '<img src="' + logo + '" alt="ref to home page" title="home page"></a> ' + html;
 
     menu.outerHTML = '<nav><p class="hide-lt480px">' + html + '</p></nav>';
 }

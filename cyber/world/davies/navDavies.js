@@ -14,3 +14,11 @@ var menu=
   <p><a href="superforce12.html"> 12. Чем вызван Большой взрыв?</a></p>\
   <p><a href="superforce13.html"> 13. Единство Вселенной</a></p>\
   <p><a href="superforce14.html"> 14. Существует ли космический план?</a></p>';
+
+var refpath="../../";
+document.head.innerHTML += '<link href="' + refpath + 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+

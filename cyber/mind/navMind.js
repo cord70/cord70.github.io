@@ -16,3 +16,10 @@ var menuen='\
   <p> &nbsp;</p>\
 <h4> Origination of space</h4>\
   <p><a href="../world/existence-en.html"> Why is existence possible</a></p>';
+
+var refpath="../";
+document.head.innerHTML += '<link href="' + refpath + 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);

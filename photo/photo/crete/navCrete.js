@@ -1,4 +1,4 @@
-﻿﻿﻿﻿var menu='\
+var menu='\
 <h4><a href="index.html"> 		Крит			</a></h4>\
   <p><a href="greek-door.html"> 	Старинная дверь		</a></p>\
   <p><a href="sunset1.html"> 		Солнце скрывается	</a></p>\
@@ -23,3 +23,11 @@ var menuen='\
   <p><a href="sunset-en.html"> 		Sunset			</a></p>\
   <p><a href="octopus-young-en.html"> 	Little octopus		</a></p>\
   <p><a href="sunset1-en.html"> 	Sunset ends		</a></p>';
+
+var refpath="../../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+

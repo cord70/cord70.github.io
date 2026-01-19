@@ -1,4 +1,4 @@
-﻿﻿﻿var menu='\
+var menu='\
 <h4><a href="index.html"> Рыбы Красного моря</a></h4>\
   <p><a href="hawkfish.html"> Крапчатый кудрепер</a></p>\
   <p><a href="angelfish.html"> Аравийский ангел</a></p>\
@@ -41,3 +41,11 @@ var menuen='\
 <h4><a href="puffer/en.html"> Masked puffer</a></h4>\
 <h4><a href="butterfly/en.html"> Butterfly fish</a></h4>\
 <h4><a href="triggerfish/en.html"> Triggerfish</a></h4>';
+
+var refpath="../../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+

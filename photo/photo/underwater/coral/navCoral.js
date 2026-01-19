@@ -23,3 +23,11 @@ var menuen='\
   <p><a href="sarcophyton-en.html"> Soft coral</a></p>\
   <p><a href="soft-en.html"> Tender coral</a></p>\
   <p><a href="staghorn-en.html"> Hard horny coral</a></p>';
+
+var refpath="../../../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+

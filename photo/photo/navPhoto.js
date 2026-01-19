@@ -37,3 +37,10 @@ var menuen='\
   <p> &nbsp;</p>\
   <p><a href="blossom/en.html"> Blossom</a></p>\
   <p><a href="plant/en.html"> Plants</a></p>';
+
+var refpath="../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);

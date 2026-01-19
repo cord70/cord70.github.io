@@ -1,4 +1,4 @@
-// cord70.github.io/fabrika
+// fabrika
 
 //var googlecounter='UA-9493768-7';
 var googlecounter='G-WXES3Q30MJ';

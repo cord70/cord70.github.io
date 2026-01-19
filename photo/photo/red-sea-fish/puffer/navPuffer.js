@@ -13,3 +13,11 @@ var menuen='\
   <p><a href="back-en.html"> Waving tail</a></p>\
   <p><a href="fire-coral-en.html"> Near fire coral</a></p>\
   <p><a href="four-teeth-en.html"> Near horny coral</a></p>';
+
+var refpath="../../../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+

@@ -23,3 +23,11 @@ var menuen='\
   <p><a href="ostrich-en.html"> Ostrich</a></p>\
   <p><a href="sparrow-side-en.html"> Three sparrows</a></p>\
 <h4><a href="../animal/en.html"> Other animals</a></h4>';
+
+var refpath="../../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+

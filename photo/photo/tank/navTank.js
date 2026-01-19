@@ -1,4 +1,4 @@
-﻿﻿﻿﻿﻿﻿var menu='\
+var menu='\
 <h4><a href="index.html"> Аквариум</a></h4>\
   <p><a href="big-scalare.html"> Скалярия</a></p>\
   <p><a href="ancistrus-scales.html"> Анциструс</a></p>\
@@ -29,3 +29,11 @@ var menuen='\
   <p><a href="pelvicachromis-4-week-en.html"> Little kribensis</a></p>\
 <h4><a href="auratus/en.html"> Auratus</a></h4>\
 <h4><a href="macrognatus/en.html"> Macrognatus</a></h4>';
+
+var refpath="../../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+

@@ -7,3 +7,11 @@ var menu=
   <p> &nbsp;</p>						\
   <p><a href="love-me.html">	Любишь ты меня</a></p>		\
   <p><a href="sonet-0.html">	Сонет шесть строк</a></p>	';
+
+var refpath="../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+

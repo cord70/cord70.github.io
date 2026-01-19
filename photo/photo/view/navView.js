@@ -13,3 +13,11 @@ var menuen=
   <p><a href="steel-spring-en.html"> Spring</a></p>\
 <h4><a href="../water/en.html"> Water</a></h4>\
 <h4><a href="../flame/en.html"> Flame</a></h4>';
+
+var refpath="../../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+

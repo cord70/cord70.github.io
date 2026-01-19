@@ -17,3 +17,11 @@ var menuen='\
   <p><a href="moon-en.html"> Moon eclipse</a></p>\
   <p><a href="mercury-sun-en.html"> Mercury transit</a></p>\
   <p><a href="small-sun-eclipse-en.html"> Partial Sun eclipse</a></p>';
+
+var refpath="../../";
+document.head.innerHTML += '<link href="' + refpath+ 'images/main.css" rel="stylesheet">';
+script1 = document.createElement('script');
+script1.src = refpath + 'images/ansimeta.js';
+script1.defer = true;
+document.head.appendChild(script1);
+
