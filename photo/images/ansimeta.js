@@ -48,7 +48,7 @@ function onLazyScroll() {
             s.src = 'https://www.googletagmanager.com/gtag/js?id=' + googlecounter;
             s.async = true;
             document.body.appendChild(s);
-        }, 200); // 200ms после scroll    
+        }, 200); // 200ms после scroll
     }
 }
 addScrollEvent(onLazyScroll);
@@ -87,6 +87,7 @@ navstring();
 footer();
 includeMenu();
 
+
 //-------------------------------------------
 // функции
 function header() {
@@ -102,7 +103,7 @@ function header() {
 
                 //'<span class="hide-lt480px"><a href="' + refpath + homepage + '">' +
                 //'<img src="' + logo + '" alt="' + alt + '" width="76" height="27"></a></span> ' +
-		//'<span class="big"><a href="' + refpath + homepage + '">' + title + '</a></span>' +
+                //'<span class="big"><a href="' + refpath + homepage + '">' + title + '</a></span>' +
 
                 '<nav><p class="hide-lt480px">' + removeSelfRef(topmenu()) + '</p></nav>' +
                 '</header>';
