@@ -1,8 +1,4 @@
-// fabrika
-
-//var googlecounter='UA-9493768-7';
-var googlecounter='G-WXES3Q30MJ';
-var disqusname='photo-ek';
+// photo cyber tarmo fabrika
 
 // lazy counters
 var scrolldone = false;
@@ -28,6 +24,100 @@ addScrollEvent(onLazyScroll);
 
 var homepage = 'index.html';
 var comments = 'Комментарии';
+var email = 'post/index.html';
+var email_title = 'автор';
+var path = window.location.pathname; // путь внутри домена например /txt/love-me.html
+var page = path.split("/").pop(); // имя файла например love-me.html
+var pagelang = document.getElementsByTagName('html')[0].lang; // maybe undefined
+if (pagelang == 'en') {
+    homepage = 'en.html';
+    alt = alt_en;
+    title = title_en;
+    comments = 'Comments';
+    email = 'post/email-en.html';
+    email_title = 'author';
+} else pagelang = 'ru';
+
+var author = '';
+var authors = document.getElementsByName('author');
+if (authors.length > 0) author = authors[0].content;
+
+
+// определение относительного адреса и пути
+ var pathlevel =  refpath.split("/").filter(Boolean).length; // число слешей
+ var refurl = window.location.pathname; // /photo/underwater/coral/index.html адрес относительно домена
+ if (refurl[refurl.length - 1] == '/') refurl = refurl + homepage; // endsWith() for IE
+ while(refurl.split("/").filter(Boolean).length>pathlevel+1) refurl=refurl.substring(1); // /photo/flame/candle.html
+ refurl=refurl.substring(1); // photo/flame/candle.html
+
+header();
+navstring();
+footer();
+includeMenu();
+
+
+//-------------------------------------------
+// функции
+function header() {
+    var headers = document.body.getElementsByTagName('header');
+    if (headers.length > 0) {
+        var h0 = headers[0];
+        var html = h0.innerHTML.replace(/\s*/g, ''); // удаление пробелов
+
+        if (html.length == 0) // если header пустой
+            h0.outerHTML =
+                '<header>' +
+                '<p id="navstring"> </p> '+
+
+                //'<span class="hide-lt480px"><a href="' + refpath + homepage + '">' +
+                //'<img src="' + logo + '" alt="' + alt + '" width="76" height="27"></a></span> ' +
+                //'<span class="big"><a href="' + refpath + homepage + '">' + title + '</a></span>' +
+
+                '<nav><p class="hide-lt480px">' + removeSelfRef(topmenu()) + '</p></nav>' +
+                '</header>';
+    }
+}
+
+
+function footer() {
+    var footers = document.body.getElementsByTagName('footer');
+    if (footers.length > 0) {
+        var prevnext = '<nav class="foot1 sel"><p id="prev"></p><p id="next"></p></nav>';
+
+        var lastnav = '';
+        if (author != '')
+            lastnav = '<nav class="foot1" ><a rel="author" title="' +
+                email_title + '" href="' + refpath + email + '">' + author + '</a></nav>';
+
+        footers[0].outerHTML = '<footer> ' + prevnext + lastnav + ' </footer>';
+    }
+}
+
+function navstring() {//вывод навигации в виде строки
+    var menu = document.getElementById('navstring');
+    if (!menu) return;
+
+    var html = '';
+    var pageadr = refurl;
+    var pagetitle;
+    var p1 = 0;
+    do {
+        if (pagetitle != 'images' && pagetitle != '600' && pagetitle != '200')
+            if (html == '')
+                html = document.title;
+            else
+                html = ' <a href="' + refpath + pageadr + '/' + homepage + '">' + pagetitle + '►</a>' + html;
+        p1 = pageadr.lastIndexOf('/');
+        pageadr = pageadr.substring(0, p1);
+        var p2 = pageadr.lastIndexOf('/');
+        pagetitle = pageadr.substring(p2 + 1); // имя директории
+    } while (p1 >= 0);
+
+    html = '<a href="' + refpath + homepage + '">' +
+        '<img src="' + logo + '" alt="ref to home page" title="home page"></a> ' + html;
+
+    menu.outerHTML = '<nav><p class="hide-lt480px">' + html + '</p></nav>';
+}
 
 
 // disqus
@@ -76,4 +166,46 @@ function show() { // отладочная функция, показываем �
         str += '<span class="big"> ' + arguments[i] + '</span><br>';
     var body = document.getElementsByTagName('body')[0];
     if (body) insertBeforeend(body, str);
+}
+
+
+function includeMenu() {
+    var m = document.getElementById('menu'); if (!m) return;
+
+    if (pagelang == 'en') menu = menuen;
+
+    var links = menu.match(new RegExp(/<a.*?a>/g)); // '<a href="omar.html"> Омар Хайям</a>'
+
+    // ищем предыдущую и следующую ссылку
+    for (var i = 0; i < links.length; i++)
+        if (links[i].indexOf('"' + page + '"') > 0) {
+            if (i > 0) {
+                var prev = document.getElementById('prev');
+                if (prev) prev.outerHTML = '<p class="left"> ◄ ' + links[i - 1] + '</p>';
+            }
+            if (i < links.length - 1) {
+                var next = document.getElementById('next');
+                if (next) next.outerHTML = '<p class="right">' + links[i + 1] + ' ► </p>';
+            }
+            break;
+        }
+
+    var nav = document.createElement('nav'); nav.className = 'leftnav';
+    nav.innerHTML = removeSelfRef(menu);
+    m.appendChild(nav);
+}
+
+
+function removeSelfRef(menu) {
+    if (path == '/' + page) // для страницы index.html
+        return menu;
+
+    // находим строку со ссылкой на себя
+    var linkPage = new RegExp('<a href="' + page + '">(.*?)</a>'); 
+    var link = menu.match(linkPage); // найденный текст
+    if (link == null) // для topmenu требуется алгоритм
+        return menu;
+
+    // убираем ссылку на себя, оставляем текст
+    return menu.replace(linkPage, '<span class="white">' + '$1' + '</span>');
 }
