@@ -10,10 +10,24 @@ var menuen='\
   <p><a href="index.html"> Русская страница</a></p>';
 
 var refpath="../";
-document.head.innerHTML += '\
-<meta content="width=device-width, initial-scale=1" name="viewport">\n\
-<link href="' + refpath + 'images/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">\n\
-<link href="' + refpath + 'images/main.css" rel="stylesheet">';
+
+var metaViewport = document.createElement('meta');
+metaViewport.name = "viewport";
+metaViewport.content = "width=device-width, initial-scale=1";
+document.head.appendChild(metaViewport);
+
+var linkFavicon = document.createElement('link');
+linkFavicon.rel = "icon";
+linkFavicon.sizes = "any";
+linkFavicon.type = "image/svg+xml";
+linkFavicon.href = refpath + "images/favicon.svg";
+document.head.appendChild(linkFavicon);
+
+var linkStyles = document.createElement('link');
+linkStyles.rel = "stylesheet";
+linkStyles.href = refpath + "images/main.css";
+document.head.appendChild(linkStyles);
+
 
 script0 = document.createElement('script');
 script0.src = refpath + 'images/photo.js';
