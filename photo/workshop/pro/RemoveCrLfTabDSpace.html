@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
  <head>
   <meta charset="utf-8">
@@ -7,13 +7,21 @@
   <meta content="Перед разбором текста полезно удалить из него лишние пробелы и переводы строк." name="description">
   
   <meta content="Евгений Корниенко" name="author">
-  
+  <meta content="width=device-width, initial-scale=1" name="viewport">
   
   <link href="https://cord70.github.io/photo/workshop/pro/RemoveCrLfTabDSpace.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
 
-  
-  <script src="navPro.js"> </script>
-  
+  <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
+  <link href="../../images/main.css" rel="stylesheet">
+  <script defer="" src="navPro.js"> </script>
+  <script defer="" src="../../images/ansimeta.js"> </script>
  </head>
  <body>
 
@@ -22,7 +30,7 @@
 
   <main>
 
-   <h1> RemoveCrLfTabDSpace </h1>
+   <h2> RemoveCrLfTabDSpace </h2>
 
    <p> Для упрощения разбора текста бывает полезно удалить из него
             разделители. Функция

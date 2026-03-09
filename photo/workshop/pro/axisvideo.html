@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
  <head>
   <meta charset="utf-8">
@@ -7,13 +7,21 @@
   <meta content="Простая программа: только Windows, только камеры Axis, минимум настроек." name="description">
   
   <meta content="Евгений Корниенко" name="author">
-  
+  <meta content="width=device-width, initial-scale=1" name="viewport">
   
   <link href="https://cord70.github.io/photo/workshop/pro/axisvideo.html" rel="canonical">
+    <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
+        url = window.location.href;
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
 
-  
-  <script src="navPro.js"> </script>
-  
+  <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
+  <link href="../../images/main.css" rel="stylesheet">
+  <script defer="" src="navPro.js"> </script>
+  <script defer="" src="../../images/ansimeta.js"> </script>
  </head>
  <body>
 
@@ -37,7 +45,7 @@
 
    <p> - установить AMC: AXISMediaControlSDK_redist.exe </p>
 
-   <p> - распаковать AxisVideoXXXX.zip например в папку temp на диске С
+   <p> - распаковать AxisVideo_xxxx.zip например в c:\temp
     <br> путь не должен содержать русских букв и пробелов </p>
 
    <p> - установить: setup.exe </p>
@@ -137,7 +145,7 @@
 
    <p> - лицензия действует на данном компьютере для данного пользователя </p>
 
-   <p> <a href="../../post/index.html" rel="author" title="email и копирайт">
+   <p> <a href="../../post/email.html" rel="author" title="email и копирайт">
      Евгений Корниенко </a> </p>
   </main>
 
@@ -161,7 +169,7 @@
    <p> <a href="../../axisvideo/AxisStreamingAssistantSetup.msi">
      AxisStreamingAssistantSetup </a> </p>
 
-   <p> <a href="../../axisvideo/AxisVideo1014.zip">
+   <p> <a href="../../axisvideo/AxisVideo_1_0_1_4.zip">
      AxisVideo setup </a> </p>
   </div>
 

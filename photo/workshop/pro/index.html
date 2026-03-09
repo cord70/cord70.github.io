@@ -1,20 +1,24 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
  <head>
-  <meta charset="utf-8">
-  <link href="https://cord70.github.io/photo/workshop/pro/" rel="canonical">
+  <meta charset="utf-8">
+  <link href="https://cord70.github.io/photo/workshop/pro/index.html" rel="canonical">
     <script>
+        // let it be the canonical URL
+        can = document.querySelector("link[rel='canonical']").href;
         url = window.location.href;
-        if (url.includes('/index.html') && !url.includes('///')) window.location.href = url.replace('/index.html','/');
-    </script>
-
+        if (url != can && url.includes('cord70.github.io') && !url.includes('#'))
+            window.location.href = can;
+    </script>
   <title> РС и программы </title>
   <meta content="Несколько тем о программировании" name="description">
   
   <meta content="Евгений Корниенко" name="author">
-
-  <script src="navPro.js"> </script>
-  
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="https://cord70.github.io/photo/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
+  <link href="../../images/main.css" rel="stylesheet">
+  <script defer="" src="navPro.js"> </script>
+  <script defer="" src="../../images/ansimeta.js"> </script>
  </head>
  <body>
 
