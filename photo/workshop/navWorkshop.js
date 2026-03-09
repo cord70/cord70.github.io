@@ -14,7 +14,6 @@ var menu='\
   <p><a href="accu-meter-circuitry.html"> Пример платы</a></p>\
   <p><a href="accu-meter2.html"> Схема для АА</a></p>\
   <p><a href="internal-resistance.html"> Внутреннее сопротивление</a></p>\
-<h4><a href="pro/index.html"> PC и программы</a></h4>\
 <h4> Новости техники</h4>\
   <p><a href="blink-stereo.html"> Блинк-стерео фото</a></p>\
   <p><a href="costa-concordia.html"> Коста Конкордия</a></p>\

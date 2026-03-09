@@ -669,11 +669,6 @@ https://cord70.github.io/photo/workshop/noiseless-en.html
 https://cord70.github.io/photo/workshop/pond/bush.html
 https://cord70.github.io/photo/workshop/pond/
 https://cord70.github.io/photo/workshop/pond/water-for-pond.html
-https://cord70.github.io/photo/workshop/pro/delta-homes.html
-https://cord70.github.io/photo/workshop/pro/
-https://cord70.github.io/photo/workshop/pro/RemoveCrLfTabDSpace.html
-https://cord70.github.io/photo/workshop/pro/ReplaceStr.html
-https://cord70.github.io/photo/workshop/pro/axisvideo.html
 https://cord70.github.io/photo/workshop/ring-light.html
 https://cord70.github.io/photo/workshop/rubik.html
 https://cord70.github.io/photo/workshop/site.html
