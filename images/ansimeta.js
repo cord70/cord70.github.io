@@ -1,10 +1,10 @@
 // photo cyber tarmo fabrika
 
 // lazy counters
-var scrolldone = false;
+var scrollDone = false;
 function onLazyScroll() {
-    if (!scrolldone) {
-        scrolldone = true; if (!navigator.onLine) return;
+    if (!scrollDone) {
+        scrollDone = true; if (!navigator.onLine) return;
 
         // google analytics
         setTimeout(function () {
@@ -22,20 +22,20 @@ function onLazyScroll() {
 addScrollEvent(onLazyScroll);
 
 
-var homepage = 'index.html';
+var indexPage = 'index.html';
 var comments = 'Комментарии';
-var email = 'post/index.html';
-var email_title = 'автор';
+var emailPage = 'post/index.html';
+var emailTitle = 'автор';
 var path = window.location.pathname; // путь внутри домена например /txt/love-me.html
 var page = path.split("/").pop(); // имя файла например love-me.html
 var pagelang = document.getElementsByTagName('html')[0].lang; // maybe undefined
 if (pagelang == 'en') {
-    homepage = 'en.html';
+    indexPage = 'en.html';
     alt = alt_en;
     title = title_en;
     comments = 'Comments';
-    email = 'post/email-en.html';
-    email_title = 'author';
+    emailPage = 'post/email-en.html';
+    emailTitle = 'author';
 } else pagelang = 'ru';
 
 var author = '';
@@ -44,9 +44,9 @@ if (authors.length > 0) author = authors[0].content;
 
 
 // определение относительного адреса и пути
- var pathlevel =  refpath.split("/").filter(Boolean).length; // число слешей
+ const pathlevel =  refpath.split("/").filter(Boolean).length; // число слешей
  var refurl = window.location.pathname; // /photo/underwater/coral/index.html адрес относительно домена
- if (refurl[refurl.length - 1] == '/') refurl = refurl + homepage; // endsWith() for IE
+ if (refurl[refurl.length - 1] == '/') refurl = refurl + indexPage; // endsWith() for IE
  while(refurl.split("/").filter(Boolean).length>pathlevel+1) refurl=refurl.substring(1); // /photo/flame/candle.html
  refurl=refurl.substring(1); // photo/flame/candle.html
 
@@ -69,9 +69,9 @@ function header() {
                 '<header>' +
                 '<p id="navstring"> </p> '+
 
-                //'<span class="hide-lt480px"><a href="' + refpath + homepage + '">' +
+                //'<span class="hide-lt480px"><a href="' + refpath + indexPage + '">' +
                 //'<img src="' + logo + '" alt="' + alt + '" width="76" height="27"></a></span> ' +
-                //'<span class="big"><a href="' + refpath + homepage + '">' + title + '</a></span>' +
+                //'<span class="big"><a href="' + refpath + indexPage + '">' + title + '</a></span>' +
 
                 '<nav><p class="hide-lt480px">' + removeSelfRef(topmenu()) + '</p></nav>' +
                 '</header>';
@@ -87,7 +87,7 @@ function footer() {
         var lastnav = '';
         if (author != '')
             lastnav = '<nav class="foot1" ><a rel="author" title="' +
-                email_title + '" href="' + refpath + email + '">' + author + '</a></nav>';
+                emailTitle + '" href="' + refpath + emailPage + '">' + author + '</a></nav>';
 
         footers[0].outerHTML = '<footer> ' + prevnext + lastnav + ' </footer>';
     }
@@ -106,14 +106,14 @@ function navstring() {//вывод навигации в виде строки
             if (html == '')
                 html = document.title;
             else
-                html = ' <a href="' + refpath + pageadr + '/' + homepage + '">' + pagetitle + '►</a>' + html;
+                html = ' <a href="' + refpath + pageadr + '/' + indexPage + '">' + pagetitle + '►</a>' + html;
         p1 = pageadr.lastIndexOf('/');
         pageadr = pageadr.substring(0, p1);
         var p2 = pageadr.lastIndexOf('/');
         pagetitle = pageadr.substring(p2 + 1); // имя директории
     } while (p1 >= 0);
 
-    html = '<a href="' + refpath + homepage + '">' +
+    html = '<a href="' + refpath + indexPage + '">' +
         '<img src="' + logo + '" alt="ref to home page" title="home page"></a> ' + html;
 
     menu.outerHTML = '<nav><p class="hide-lt480px">' + html + '</p></nav>';
