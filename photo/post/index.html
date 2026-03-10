@@ -1,23 +1,34 @@
 <!DOCTYPE html>
-<html lang="ru">
- <head>
-  <meta charset="utf-8">
+<html lang="ru"> 
+<head>  
+    <script> url = window.location.href;
+      h = '/index.html';  if (url.includes(h) && !url.includes('///')) window.location.href = url.replace(h,'/');
+    </script>  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Письмо автору сайта</title>
+    <meta name="author" content="Евгений Корниенко">
+    <meta name="description" content="О сайте 'Фото и хобби Е.Корниенко'. Адрес автора, копирайт, происхождение сайта.">
 
-  <title> Письмо автору сайта </title>
-  <meta content="О сайте 'Фото и хобби Е.Корниенко'. Адрес автора, копирайт, происхождение сайта." name="description">
-  
-  <meta content="Евгений Корниенко" name="author">  
+    <link href="../../images/favicon.svg" rel="icon" sizes="any" type="image/svg+xml">
+    <link href="../../images/main.css" rel="stylesheet">
+ 
 
-  <link href="https://cord70.github.io/photo/post/" rel="canonical">
-    <script>
-        url = window.location.href;
-        if (url.includes('/index.html') && !url.includes('///')) window.location.href = url.replace('/index.html','/');
-    </script>
-  
-  <script src="navPost.js"> </script>
-  
- </head>
+
+    <script> var refpath="../";
+ 
+    
+    menu='\
+<h4> сайт cord70.github.io/photo</h4>\
+  <p><a href="../workshop/site.html"> Об этом сайте</a></p>\
+  <p><a href="../search.html"> Поиск по сайту</a></p>\
+  <p><a href="email-en.html"> English page</a></p>';   
+    </script>    
+    <script src="../images/menu.js" defer=""> </script>
+    <script src="../../images/ansimeta.js" defer=""> </script> 
+</head>
  <body>
+    
+ 
 
   <header>
   </header>
@@ -105,5 +116,7 @@
   </div>
 
   
+ 
+
  </body>
 </html>
