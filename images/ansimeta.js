@@ -1,7 +1,7 @@
 // photo cyber tarmo fabrika
 
 // lazy counters
-var scrollDone = false;
+let scrollDone = false;
 function onLazyScroll() {
     if (!scrollDone) {
         scrollDone = true; if (!navigator.onLine) return;
@@ -22,30 +22,30 @@ function onLazyScroll() {
 addScrollEvent(onLazyScroll);
 
 
-var indexPage = 'index.html';
-var comments = 'Комментарии';
-var emailPage = 'post/index.html';
-var emailTitle = 'автор';
-var path = window.location.pathname; // путь внутри домена например /txt/love-me.html
-var page = path.split("/").pop(); // имя файла например love-me.html
-var pagelang = document.getElementsByTagName('html')[0].lang; // maybe undefined
+const pathName = window.location.pathname; // путь внутри домена например /txt/love-me.html
+const fileName = pathName.split("/").pop(); // имя файла например love-me.html
+let indexPage = 'index.html';
+let comments = 'Комментарии';
+let emailPage = 'post/index.html';
+let emailTitle = 'автор';
+let pagelang = document.getElementsByTagName('html')[0].lang; // maybe undefined
 if (pagelang == 'en') {
+    alt = alt_en; // from menu.js
+    title = title_en; // from menu.js
     indexPage = 'en.html';
-    alt = alt_en;
-    title = title_en;
     comments = 'Comments';
     emailPage = 'post/email-en.html';
     emailTitle = 'author';
 } else pagelang = 'ru';
 
-var author = '';
-var authors = document.getElementsByName('author');
+const authors = document.getElementsByName('author');
+let author = '';
 if (authors.length > 0) author = authors[0].content;
 
 
 // определение относительного адреса и пути
  const pathlevel =  refpath.split("/").filter(Boolean).length; // число слешей
- var refurl = window.location.pathname; // /photo/underwater/coral/index.html адрес относительно домена
+ let refurl = window.location.pathname; // /photo/underwater/coral/index.html адрес относительно домена
  if (refurl[refurl.length - 1] == '/') refurl = refurl + indexPage; // endsWith() for IE
  while(refurl.split("/").filter(Boolean).length>pathlevel+1) refurl=refurl.substring(1); // /photo/flame/candle.html
  refurl=refurl.substring(1); // photo/flame/candle.html
@@ -121,8 +121,8 @@ function navstring() {//вывод навигации в виде строки
 
 
 // disqus
-var chat = document.getElementById('disqus_thread');
-var disqusLoaded = false;
+const chat = document.getElementById('disqus_thread');
+let disqusLoaded = false;
 if (chat) {
     insertBeforeend(chat, '<div class="center"><button class="big" onclick="loadDisqus();">' +
         comments + '...</button></div>'); // на случай если не работает scroll	
@@ -178,7 +178,7 @@ function includeMenu() {
 
     // ищем предыдущую и следующую ссылку
     for (var i = 0; i < links.length; i++)
-        if (links[i].indexOf('"' + page + '"') > 0) {
+        if (links[i].indexOf('"' + fileName + '"') > 0) {
             if (i > 0) {
                 var prev = document.getElementById('prev');
                 if (prev) prev.outerHTML = '<p class="left"> ◄ ' + links[i - 1] + '</p>';
@@ -197,11 +197,11 @@ function includeMenu() {
 
 
 function removeSelfRef(menu) {
-    if (path == '/' + page) // для страницы index.html
+    if (pathName == '/' + fileName) // для страницы index.html
         return menu;
 
     // находим строку со ссылкой на себя
-    var linkPage = new RegExp('<a href="' + page + '">(.*?)</a>'); 
+    var linkPage = new RegExp('<a href="' + fileName + '">(.*?)</a>'); 
     var link = menu.match(linkPage); // найденный текст
     if (link == null) // для topmenu требуется алгоритм
         return menu;
