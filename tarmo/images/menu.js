@@ -1,17 +1,16 @@
 // tarmo
 
-//var googlecounter='UA-9493768-5';
-var googlecounter='G-R0FRG6NEF1';
-var disqusname='cyber-ek';
+const googlecounter='G-R0FRG6NEF1';
+const disqusname='cyber-ek';
 
 var alt = 'logo - Механизмы сознания';
-var alt_en = 'logo - Mechanisms of Consciousness';
+if ( pagelang=='en' ) alt = 'logo - Mechanisms of Consciousness';
 var title = 'Механизмы сознания';
-var title_en = 'Mechanisms of Consciousness';
-var logo = refpath+'images/home.gif';
+if ( pagelang=='en' ) title = 'Mechanisms of Consciousness';
+const logo = refpath+'images/home.gif';
 
 function topmenu() {
-    if (pagelang == 'ru') {
+    if (pagelang == 'en') {
 	return ""
     }
     else {

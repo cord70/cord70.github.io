@@ -28,15 +28,12 @@ let indexPage = 'index.html';
 let comments = 'Комментарии';
 let emailPage = 'post/index.html';
 let emailTitle = 'автор';
-let pagelang = document.getElementsByTagName('html')[0].lang; // maybe undefined
 if (pagelang == 'en') {
-    alt = alt_en; // from menu.js
-    title = title_en; // from menu.js
     indexPage = 'en.html';
     comments = 'Comments';
     emailPage = 'post/email-en.html';
     emailTitle = 'author';
-} else pagelang = 'ru';
+}
 
 const authors = document.getElementsByName('author');
 let author = '';
@@ -94,8 +91,8 @@ function footer() {
 }
 
 function navstring() {//вывод навигации в виде строки
-    var menu = document.getElementById('navstring');
-    if (!menu) return;
+    const menuLine = document.getElementById('navstring');
+    if (!menuLine) return;
 
     var html = '';
     var pageadr = refurl;
@@ -116,7 +113,7 @@ function navstring() {//вывод навигации в виде строки
     html = '<a href="' + refpath + indexPage + '">' +
         '<img src="' + logo + '" alt="ref to home page" title="home page"></a> ' + html;
 
-    menu.outerHTML = '<nav><p class="hide-lt480px">' + html + '</p></nav>';
+    menuLine.outerHTML = '<nav><p class="hide-lt480px">' + html + '</p></nav>';
 }
 
 
@@ -172,8 +169,6 @@ function show() { // отладочная функция, показываем �
 function includeMenu() {
     var m = document.getElementById('menu'); if (!m) return;
 
-    if (pagelang == 'en') menu = menuen;
-
     var links = menu.match(new RegExp(/<a.*?a>/g)); // '<a href="omar.html"> Омар Хайям</a>'
 
     // ищем предыдущую и следующую ссылку
@@ -196,16 +191,16 @@ function includeMenu() {
 }
 
 
-function removeSelfRef(menu) {
+function removeSelfRef(menuLine) {
     if (pathName == '/' + fileName) // для страницы index.html
-        return menu;
+        return menuLine;
 
     // находим строку со ссылкой на себя
     var linkPage = new RegExp('<a href="' + fileName + '">(.*?)</a>'); 
-    var link = menu.match(linkPage); // найденный текст
+    var link = menuLine.match(linkPage); // найденный текст
     if (link == null) // для topmenu требуется алгоритм
-        return menu;
+        return menuLine;
 
     // убираем ссылку на себя, оставляем текст
-    return menu.replace(linkPage, '<span class="white">' + '$1' + '</span>');
+    return menuLine.replace(linkPage, '<span class="white">' + '$1' + '</span>');
 }

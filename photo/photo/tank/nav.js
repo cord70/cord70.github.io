@@ -1,0 +1,31 @@
+var menu='\
+<h4><a href="index.html"> Аквариум</a></h4>\
+  <p><a href="big-scalare.html"> Скалярия</a></p>\
+  <p><a href="ancistrus-scales.html"> Анциструс</a></p>\
+  <p><a href="snail-couple.html"> Две улитки</a></p>\
+  <p><a href="tank100L-2002.html"> Аквариум 100л</a></p>\
+  <p><a href="fish-home-tank.html"> Дом для рыбок</a></p>\
+  <p><a href="mastacembelus-armatus.html"> Мастацембел</a></p>\
+  <p><a href="pelvicachromis-male.html"> Цихлида-попугай</a></p>\
+  <p><a href="botia-afternoon.html"> Мраморная боция</a></p>\
+  <p><a href="kribs.html"> Мальки попугая</a></p>\
+  <p><a href="fish-yawn.html"> Скалярия зевает</a></p>\
+  <p><a href="pelvicachromis-4-week.html"> Попугайчик</a></p>\
+<h4><a href="macrognatus/index.html"> Макрогнатус</a></h4>\
+<h4><a href="auratus/index.html"> Ауратус</a></h4>';
+
+if( pagelang == 'en' ) menu='\
+<h4><a href="en.html"> Aquarium</a></h4>\
+  <p><a href="tank100L-2002-en.html"> My 100L tank</a></p>\
+  <p><a href="big-scalare-en.html"> Scalare</a></p>\
+  <p><a href="snail-couple-en.html"> Two snails</a></p>\
+  <p><a href="mastacembelus-armatus-en.html"> Mastacembelus</a></p>\
+  <p><a href="ancistrus-scales-en.html"> Ancistrus</a></p>\
+  <p><a href="pelvicachromis-male-en.html"> Kribensis</a></p>\
+  <p><a href="botia-afternoon-en.html"> Marble botia</a></p>\
+  <p><a href="kribs-en.html"> Kribensis fry</a></p>\
+  <p><a href="fish-home-tank-en.html"> Fish home</a></p>\
+  <p><a href="fish-yawn-en.html"> Fish yawn</a></p>\
+  <p><a href="pelvicachromis-4-week-en.html"> Little kribensis</a></p>\
+<h4><a href="auratus/en.html"> Auratus</a></h4>\
+<h4><a href="macrognatus/en.html"> Macrognatus</a></h4>';

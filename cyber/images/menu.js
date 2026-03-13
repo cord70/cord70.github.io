@@ -1,14 +1,13 @@
 // cyber
 
-//var googlecounter = 'UA-9493768-2';
-var googlecounter = 'G-KVPFGW8RWM';
-var disqusname = 'cyber-ek';
+const googlecounter = 'G-KVPFGW8RWM';
+const disqusname = 'cyber-ek';
 
 var alt = 'logo - Механизмы существования и сознания';
-var alt_en = 'logo - Mechanisms of Consciousness and Existence';
+if ( pagelang=='en' ) alt = 'logo - Mechanisms of Consciousness and Existence';
 var title = 'Механизмы<span class="hide-lt480px"> существования и сознания</span>';
-var title_en = 'Mechanisms<span class="hide-lt480px"> of Consciousness and Existence</span>';
-var logo = refpath+'images/home.gif';
+if ( pagelang=='en' ) title = 'Mechanisms<span class="hide-lt480px"> of Consciousness and Existence</span>';
+const logo = refpath+'images/home.gif';
 
 function topmenu() {
     if (pagelang == 'ru') {
