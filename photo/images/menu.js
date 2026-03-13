@@ -4,12 +4,12 @@ const googlecounter = 'G-EZW0R402XT';
 const disqusname = 'photo-ek';
 
 var alt = 'logo - Фотографии и хобби Е Корниенко';
-if ( pagelang=='en' ) alt = 'logo - photo and hobby E Kornienko';
+if (pagelang == 'en') alt = 'logo - photo and hobby E Kornienko';
 var title = '<span class="hide-lt480px">Домашняя</span> страничка Е.Корниенко';
-if ( pagelang=='en' ) title = 'E.Kornienko <span class="hide-lt480px">home</span> page';
-const logo = refpath+'images/photohome.png';
+if (pagelang == 'en') title = 'E.Kornienko <span class="hide-lt480px">home</span> page';
+const logo = refpath + 'images/photohome.png';
 
-function topmenu() { 
+function topmenu() {
     if (pagelang == 'ru') {
         var i1 = ' <a href="' + refpath + 'photo/index.html"> Фото </a>';
         var i2 = ' <a href="' + refpath + 'photo/red-sea/index.html"> На Красном море </a>';

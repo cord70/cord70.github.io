@@ -1,1 +1,1 @@
-var menu='';
+const menu = (pagelang == 'ru') ? '' : '';

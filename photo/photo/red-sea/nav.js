@@ -1,5 +1,5 @@
-var menu='\
-<h4> На Красном море</h4>\
+const menu = (pagelang == 'ru') ?
+  '<h4> На Красном море</h4>\
   <p><a href="reef-heron.html"> Рифовая цапля</a></p>\
   <p><a href="coral-ancient.html"> Коралловая гора</a></p>\
   <p><a href="reef-old-ship.html"> Коралловый риф</a></p>\
@@ -11,10 +11,8 @@ var menu='\
   <p><a href="mosque.html"> Мечеть на закате</a></p>\
   <p><a href="rusty-ship.html"> Корабль на рифе</a></p>\
   <p><a href="conrad-map.html"> Конрад со спутника</a></p>\
-<h4><a href="../red-sea-fish/index.html"> Рыбы Красного моря</a></h4>';
-
-if( pagelang == 'en' ) menu='\
-<h4> At Red Sea</h4>\
+  <h4><a href="../red-sea-fish/index.html"> Рыбы Красного моря</a></h4>'
+  : '<h4> At Red Sea</h4>\
   <p><a href="horizon-en.html"> Sea horizon</a></p>\
   <p><a href="tyran-island-sunrise-en.html"> Sunrise</a></p>\
   <p><a href="reef-heron-en.html"> Reef heron</a></p>\
@@ -26,4 +24,4 @@ if( pagelang == 'en' ) menu='\
   <p><a href="coral-fossil-en.html"> Corals in stone</a></p>\
   <p><a href="rusty-ship-en.html"> A ship at reef</a></p>\
   <p><a href="conrad-map-en.html"> Conrad Google map</a></p>\
-<h4><a href="../red-sea-fish/en.html"> Red Sea Fish</a></h4>';
+  <h4><a href="../red-sea-fish/en.html"> Red Sea Fish</a></h4>';

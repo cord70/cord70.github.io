@@ -1,4 +1,5 @@
-var menu='<h4><a href="index.html"> П.Девис, Суперсила</a></h4>\
+const menu = (pagelang == 'ru') ?
+  '<h4><a href="index.html"> П.Девис, Суперсила</a></h4>\
   <p><a href="superforce1.html"> 1. Вселенная раскрывает свои тайны</a></p>\
   <p><a href="superforce2.html"> 2. Физика и крушение здравого смысла</a></p>\
   <p><a href="superforce3.html"> 3. Действительность и мир квантов</a></p>\
@@ -12,4 +13,5 @@ var menu='<h4><a href="index.html"> П.Девис, Суперсила</a></h4>\
   <p><a href="superforce11.html"> 11. Ископаемые космоса</a></p>\
   <p><a href="superforce12.html"> 12. Чем вызван Большой взрыв?</a></p>\
   <p><a href="superforce13.html"> 13. Единство Вселенной</a></p>\
-  <p><a href="superforce14.html"> 14. Существует ли космический план?</a></p>';
+  <p><a href="superforce14.html"> 14. Существует ли космический план?</a></p>'
+  : '';

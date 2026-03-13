@@ -1,5 +1,5 @@
-var menu='\
-<h4><a href="index.html"> Рыбы Красного моря</a></h4>\
+const menu = (pagelang == 'ru') ?
+  '<h4><a href="index.html"> Рыбы Красного моря</a></h4>\
   <p><a href="hawkfish.html"> Крапчатый кудрепер</a></p>\
   <p><a href="angelfish.html"> Аравийский ангел</a></p>\
   <p><a href="amphiprion.html"> Амфиприон</a></p>\
@@ -15,13 +15,11 @@ var menu='\
   <p><a href="diodon.html"> Рыба ёж Diodon</a></p>\
   <p><a href="surgeon-fish-pair.html"> Два хирурга</a></p>\
   <p><a href="surgeon-fish.html"> Рыба хирург</a></p>\
-<h4><a href="scat/index.html"> Скат Тэниура лимма</a></h4>\
-<h4><a href="puffer/index.html"> Масковый пуффер</a></h4>\
-<h4><a href="butterfly/index.html"> Рыбы-бабочки</a></h4>\
-<h4><a href="triggerfish/index.html"> Спинороги</a></h4>';
-
-if( pagelang == 'en' ) menu='\
-<h4><a href="en.html"> Red Sea Fish</a></h4>\
+  <h4><a href="scat/index.html"> Скат Тэниура лимма</a></h4>\
+  <h4><a href="puffer/index.html"> Масковый пуффер</a></h4>\
+  <h4><a href="butterfly/index.html"> Рыбы-бабочки</a></h4>\
+  <h4><a href="triggerfish/index.html"> Спинороги</a></h4>'
+  : '<h4><a href="en.html"> Red Sea Fish</a></h4>\
   <p><a href="hawkfish-en.html"> Hawkfish</a></p>\
   <p><a href="angelfish-en.html"> Arabian angel fish</a></p>\
   <p><a href="amphiprion-en.html"> Amphiprion</a></p>\
@@ -37,7 +35,7 @@ if( pagelang == 'en' ) menu='\
   <p><a href="diodon-en.html"> Diodon</a></p>\
   <p><a href="surgeon-fish-pair-en.html"> Two Surgeons</a></p>\
   <p><a href="surgeon-fish-en.html"> Surgeon fish</a></p>\
-<h4><a href="scat/en.html"> Taeniura limma</a></h4>\
-<h4><a href="puffer/en.html"> Masked puffer</a></h4>\
-<h4><a href="butterfly/en.html"> Butterfly fish</a></h4>\
-<h4><a href="triggerfish/en.html"> Triggerfish</a></h4>';
+  <h4><a href="scat/en.html"> Taeniura limma</a></h4>\
+  <h4><a href="puffer/en.html"> Masked puffer</a></h4>\
+  <h4><a href="butterfly/en.html"> Butterfly fish</a></h4>\
+  <h4><a href="triggerfish/en.html"> Triggerfish</a></h4>';

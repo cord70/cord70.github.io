@@ -1,5 +1,5 @@
-var menu='\
-<h4><a href="../index.html"> Плаваем с маской</a></h4>\
+const menu = ( pagelang=='ru' ) ? 
+'<h4><a href="../index.html"> Плаваем с маской</a></h4>\
 <h4><a href="index.html"> Кораллы</a></h4>\
   <p><a href="fire-macro.html"> Жгучие иголочки</a></p>\
   <p><a href="acropora.html"> Симбиоз кораллов</a></p>\
@@ -9,10 +9,8 @@ var menu='\
   <p><a href="fire.html"> Огненный коралл</a></p>\
   <p><a href="gardineroseris.html"> Ребристые ячейки</a></p>\
   <p><a href="sarcophyton.html"> Мягкий коралл</a></p>\
-  <p><a href="staghorn.html"> Рогатый коралл</a></p>';
-
-if ( pagelang=='en' ) menu='\
-<h4><a href="../en.html"> Swimming with mask</a></h4>\
+  <p><a href="staghorn.html"> Рогатый коралл</a></p>' 
+: '<h4><a href="../en.html"> Swimming with mask</a></h4>\
 <h4><a href="en.html"> Corals</a></h4>\
   <p><a href="fire-macro-en.html"> Stinging needles</a></p>\
   <p><a href="brain-en.html"> Brain-like coral</a></p>\

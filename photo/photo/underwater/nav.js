@@ -1,5 +1,5 @@
-var menu='\
-<h4> Плаваем с маской</h4>\
+const menu = (pagelang == 'ru') ?
+  '<h4> Плаваем с маской</h4>\
   <p><a href="star-fish-bright.html"> Яркая звезда</a></p>\
   <p><a href="octopus.html"> Осьминог в норке</a></p>\
   <p><a href="jellyfish.html"> Медуза вблизи</a></p>\
@@ -15,11 +15,9 @@ var menu='\
   <p><a href="christmas-worm-red.html"> Красный спиробранхус</a></p>\
   <p><a href="christmas-worm-yellow-white.html"> Жёлтый спиробранхус</a></p>\
   <p><a href="green-fish-hard-coral.html"> Зелёные рыбки</a></p>\
-<h4><a href="coral/index.html"> Разные кораллы</a></h4>\
-<h4><a href="../red-sea-fish/index.html"> Рыбы Красного моря</a></h4>';
-
-if( pagelang == 'en' ) menu='\
-<h4> Swimming with mask</h4>\
+  <h4><a href="coral/index.html"> Разные кораллы</a></h4>\
+  <h4><a href="../red-sea-fish/index.html"> Рыбы Красного моря</a></h4>'
+  : '<h4> Swimming with mask</h4>\
   <p><a href="christmas-worm-yellow-fire-en.html"> Christmas worm</a></p>\
   <p><a href="star-fish-bright-en.html"> Bright star</a></p>\
   <p><a href="fish-coral-shadow-en.html"> Burrfish in shadow</a></p>\
@@ -35,5 +33,5 @@ if( pagelang == 'en' ) menu='\
   <p><a href="cucumber-en.html"> Sea cucumber</a></p>\
   <p><a href="green-fish-hard-coral-en.html"> Green fish in coral</a></p>\
   <p><a href="pencil-sea-urchin-en.html"> Pencil sea urchin</a></p>\
-<h4><a href="coral/en.html"> Different corals</a></h4>\
-<h4><a href="../red-sea-fish/en.html"> Red Sea Fish</a></h4>';
+  <h4><a href="coral/en.html"> Different corals</a></h4>\
+  <h4><a href="../red-sea-fish/en.html"> Red Sea Fish</a></h4>';

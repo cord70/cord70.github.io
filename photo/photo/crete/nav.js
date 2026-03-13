@@ -1,5 +1,5 @@
-var menu='\
-<h4><a href="index.html"> 		Крит			</a></h4>\
+const menu = (pagelang == 'ru') ?
+  '<h4><a href="index.html"> 		Крит			</a></h4>\
   <p><a href="greek-door.html"> 	Старинная дверь		</a></p>\
   <p><a href="sunset1.html"> 		Солнце скрывается	</a></p>\
   <p><a href="octopus-swims.html"> 	Осьминог плывёт		</a></p>\
@@ -9,10 +9,8 @@ var menu='\
   <p><a href="sunset.html"> 		Ещё закат над морем	</a></p>\
   <p><a href="geese-at-lake.html"> 	Гуси в озере		</a></p>\
   <p><a href="sea-view.html"> 		Вид с набережной	</a></p>\
-  <p><a href="retsina.html"> 		Критская Рецина		</a></p>';
-
-if( pagelang == 'en' ) menu='\
-<h4><a href="en.html"> 			Crete			</a></h4>\
+  <p><a href="retsina.html"> 		Критская Рецина		</a></p>'
+  : '<h4><a href="en.html"> 			Crete			</a></h4>\
   <p><a href="greek-door-en.html"> 	Old door		</a></p>\
   <p><a href="geese-at-lake-en.html"> 	Geese at a lake		</a></p>\
   <p><a href="octopus-swims-en.html"> 	Octopus swims		</a></p>\

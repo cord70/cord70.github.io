@@ -1,5 +1,5 @@
-var menu='\
-<h4><a href="index.html"> Растения</a></h4>\
+const menu = (pagelang == 'ru') ?
+  '<h4><a href="index.html"> Растения</a></h4>\
   <p><a href="spring-2003.html"> Веточка ивы</a></p>\
   <p><a href="young-leaf.html"> Молодой листок</a></p>\
   <p><a href="cranberries.html"> Клюква развесистая</a></p>\
@@ -7,10 +7,8 @@ var menu='\
   <p><a href="maple-leaflet.html"> Кленовый лист</a></p>\
   <p><a href="fungus.html"> Грибы на дереве</a></p>\
   <p><a href="frosty-fir.html"> Иней на иголках</a></p>\
-<h4><a href="../blossom/index.html"> Цветы</a></h4>';
-
-if( pagelang == 'en' ) menu='\
-<h4><a href="en.html"> Plant</a></h4>\
+  <h4><a href="../blossom/index.html"> Цветы</a></h4>'
+  : '<h4><a href="en.html"> Plant</a></h4>\
   <p><a href="fungus-en.html"> Bad fungus</a></p>\
   <p><a href="maple-leaflet-en.html"> Maple leaf</a></p>\
   <p><a href="frosty-fir-en.html"> Frosty fir</a></p>\
@@ -18,4 +16,4 @@ if( pagelang == 'en' ) menu='\
   <p><a href="spring-2003-en.html"> Birch branchlet</a></p>\
   <p><a href="young-leaf-en.html"> Five leaflets</a></p>\
   <p><a href="cranberries-en.html"> Cranberries</a></p>\
-<h4><a href="../blossom/en.html"> Flower</a></h4>';
+  <h4><a href="../blossom/en.html"> Flower</a></h4>';

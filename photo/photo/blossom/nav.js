@@ -1,5 +1,5 @@
-var menu='\
-<h4><a href="index.html"> Цветы</a></h4>\
+const menu = (pagelang == 'ru') ?
+  '<h4><a href="index.html"> Цветы</a></h4>\
   <p><a href="plum-flower.html"> Цветущая слива</a></p>\
   <p><a href="rose-flower.html"> Садовый георгин</a></p>\
   <p><a href="mothy.html"> Прозрачная мошка</a></p>\
@@ -10,10 +10,8 @@ var menu='\
   <p><a href="violet-flower.html"> Герань лесная</a></p>\
   <p><a href="buttercup.html"> Лютик</a></p>\
   <p><a href="clover.html"> Цветок клевера</a></p>\
-<h4><a href="../plant/index.html"> Другие растения</a></h4>';
-
-if( pagelang == 'en' ) menu='\
-<h4><a href="en.html"> Flowers</a></h4>\
+  <h4><a href="../plant/index.html"> Другие растения</a></h4>'
+  : '<h4><a href="en.html"> Flowers</a></h4>\
   <p><a href="plum-flower-en.html"> Plum flowers</a></p>\
   <p><a href="buttercup-en.html"> Buttercup</a></p>\
   <p><a href="blowball-en.html"> Big blowball</a></p>\
@@ -24,4 +22,4 @@ if( pagelang == 'en' ) menu='\
   <p><a href="sunny-dandelion-en.html"> Sun dandelon</a></p>\
   <p><a href="flowering-en.html"> Bird cherry tree</a></p>\
   <p><a href="violet-flower-en.html"> Geranium</a></p>\
-<h4><a href="../plant/en.html"> Other plants</a></h4>';
+  <h4><a href="../plant/en.html"> Other plants</a></h4>';

@@ -1,6 +1,7 @@
-var menu='<h4><a href="../mind/index.html"> Природа сознания</a></h4>\
-<h4><a href="../ai/index.html"> Поиск конструкции AI</a></h4>\
-<h4><a href="index.html"> Рабочий черновик</a></h4>\
+const menu = (pagelang == 'ru') ?
+  '<h4><a href="../mind/index.html"> Природа сознания</a></h4>\
+  <h4><a href="../ai/index.html"> Поиск конструкции AI</a></h4>\
+  <h4><a href="index.html"> Рабочий черновик</a></h4>\
   <p><a href="AI-1996.html"> ИИ и сознание 1996</a></p>\
   <p><a href="AI-1997a.html"> ИИ и сознание 1997a</a></p>\
   <p><a href="AI-1997b.html"> ИИ и сознание 1997b</a></p>\
@@ -10,4 +11,5 @@ var menu='<h4><a href="../mind/index.html"> Природа сознания</a><
   <p><a href="AI-1998d.html"> ИИ и сознание 1998d</a></p>\
   <p><a href="AI-1998e.html"> ИИ и сознание 1998e</a></p>\
   <p><a href="physics.html"> Место сознания в физике</a></p>\
-  <p><a href="process.html"> Природа идеального</a></p>';
+  <p><a href="process.html"> Природа идеального</a></p>'
+  : '';

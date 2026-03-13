@@ -36,16 +36,14 @@ if (pagelang == 'en') {
 }
 
 const authors = document.getElementsByName('author');
-let author = '';
-if (authors.length > 0) author = authors[0].content;
-
+const author = (authors.length == 0) ? '' : authors[0].content;
 
 // определение относительного адреса и пути
- const pathlevel =  refpath.split("/").filter(Boolean).length; // число слешей
- let refurl = window.location.pathname; // /photo/underwater/coral/index.html адрес относительно домена
- if (refurl[refurl.length - 1] == '/') refurl = refurl + indexPage; // endsWith() for IE
- while(refurl.split("/").filter(Boolean).length>pathlevel+1) refurl=refurl.substring(1); // /photo/flame/candle.html
- refurl=refurl.substring(1); // photo/flame/candle.html
+const pathlevel = refpath.split("/").filter(Boolean).length; // число слешей
+let refurl = window.location.pathname; // /photo/underwater/coral/index.html адрес относительно домена
+if (refurl[refurl.length - 1] == '/') refurl = refurl + indexPage; // endsWith() for IE
+while (refurl.split("/").filter(Boolean).length > pathlevel + 1) refurl = refurl.substring(1); // /photo/flame/candle.html
+refurl = refurl.substring(1); // photo/flame/candle.html
 
 header();
 navstring();
@@ -64,7 +62,7 @@ function header() {
         if (html.length == 0) // если header пустой
             h0.outerHTML =
                 '<header>' +
-                '<p id="navstring"> </p> '+
+                '<p id="navstring"> </p> ' +
 
                 //'<span class="hide-lt480px"><a href="' + refpath + indexPage + '">' +
                 //'<img src="' + logo + '" alt="' + alt + '" width="76" height="27"></a></span> ' +
@@ -196,7 +194,7 @@ function removeSelfRef(menuLine) {
         return menuLine;
 
     // находим строку со ссылкой на себя
-    var linkPage = new RegExp('<a href="' + fileName + '">(.*?)</a>'); 
+    var linkPage = new RegExp('<a href="' + fileName + '">(.*?)</a>');
     var link = menuLine.match(linkPage); // найденный текст
     if (link == null) // для topmenu требуется алгоритм
         return menuLine;

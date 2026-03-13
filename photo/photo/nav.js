@@ -1,5 +1,5 @@
-var menu='\
-<h4> Фото</h4>\
+const menu = (pagelang == 'ru') ?
+  '<h4> Фото</h4>\
   <p><a href="tank/index.html"> Аквариум</a></p>\
   <p><a href="crete/index.html"> Отпуск на Крите</a></p>\
   <p><a href="red-sea/index.html"> На Красном море</a></p>\
@@ -16,10 +16,8 @@ var menu='\
   <p><a href="bird/index.html"> Птицы</a></p>\
   <p> &nbsp;</p>\
   <p><a href="blossom/index.html"> Цветы</a></p>\
-  <p><a href="plant/index.html"> Растения</a></p>';
-
-if( pagelang == 'en' ) menu='\
-<h4> Photo</h4>\
+  <p><a href="plant/index.html"> Растения</a></p>'
+  : '<h4> Photo</h4>\
   <p><a href="tank/en.html"> My aquarium</a></p>\
   <p><a href="crete/en.html"> Crete</a></p>\
   <p><a href="red-sea/en.html"> Red Sea</a></p>\

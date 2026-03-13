@@ -1,5 +1,5 @@
-var menu='\
-<h4><a href="index.html"> Насекомые</a></h4>\
+const menu = (pagelang == 'ru') ?
+  '<h4><a href="index.html"> Насекомые</a></h4>\
   <p><a href="hornet.html"> Портрет шершня</a></p>\
   <p><a href="hornet-flying.html"> Полёт шершня</a></p>\
   <p><a href="dragon-with-strips.html"> Стрекоза на травке</a></p>\
@@ -20,10 +20,8 @@ var menu='\
   <p><a href="centipede-hides.html"> Сколопендра прячется</a></p>\
   <p><a href="centipede-sideview.html"> Сколопендра в профиль</a></p>\
   <p><a href="mosquito-net.html"> Комар</a></p>\
-<h4><a href="butterfly/index.html"> Бабочки</a></h4>';
-
-if( pagelang == 'en' ) menu='\
-<h4><a href="en.html"> Insect</a></h4>\
+  <h4><a href="butterfly/index.html"> Бабочки</a></h4>'
+  : '<h4><a href="en.html"> Insect</a></h4>\
   <p><a href="hornet-en.html"> Hornet</a></p>\
   <p><a href="hornet-flying-en.html"> Hornet in flight</a></p>\
   <p><a href="grig-maskcolor-en.html"> Maskcolor</a></p>\
@@ -44,4 +42,4 @@ if( pagelang == 'en' ) menu='\
   <p><a href="centipede-sideview-en.html"> House centipede</a></p>\
   <p><a href="centipede-hides-en.html"> Centipede hides</a></p>\
   <p><a href="mosquito-net-en.html"> Mosquito</a></p>\
-<h4><a href="butterfly/en.html"> Butterflies</a></h4>';
+  <h4><a href="butterfly/en.html"> Butterflies</a></h4>';

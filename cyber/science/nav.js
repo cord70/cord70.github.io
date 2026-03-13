@@ -1,4 +1,5 @@
-var menu='<h4> Сложные задачи</h4>\
+const menu = (pagelang == 'ru') ?
+  '<h4> Сложные задачи</h4>\
   <p><a href="hard-problems.html"> Самые сложные задачи</a></p>\
   <p><a href="dni.html"> Что закодировно в ДНК</a></p>\
   <p><a href="FTL-causality.html"> Пример нарушения причинности</a></p>\
@@ -13,4 +14,5 @@ var menu='<h4> Сложные задачи</h4>\
   <p><a href="constants.html"> Сколько в физике констант</a></p>\
   <p><a href="crackpot.html"> Признаки чокнутой теории</a></p>\
   <p><a href="open-questions.html"> Открытые вопросы в физике</a></p>\
-  <p><a href="thought-experiment.html"> Мысленный эксперимент</a></p>';
+  <p><a href="thought-experiment.html"> Мысленный эксперимент</a></p>'
+  : '';

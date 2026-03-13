@@ -2,23 +2,33 @@
 
 /* cyber tarmo photo fabrika */
 
-@media print {.noprint, .foot1, .leftnav {display: none;}}
+@media print {
+    .noprint,
+    .foot1,
+    .leftnav {
+        display: none;
+    }
+}
 
-body {background-image: url("sky.jpg");
+body {
+    background-image: url("sky.jpg");
     font-family: arial;
     min-width: 200px;
     max-width: 950px;
 }
 
-header {max-width: 950px;
+header {
+    max-width: 950px;
     min-height: 65px;
 }
 
-footer {clear: both;
+footer {
+    clear: both;
     max-width: 750px;
 }
 
-main { /* содержание */
+main {
+    /* содержание */
     float: left;
     width: 100%;
     max-width: 750px;
@@ -26,7 +36,8 @@ main { /* содержание */
     background-color: white;
 }
 
-.foot1 { /* для дополнительных ссылок */
+.foot1 {
+    /* для дополнительных ссылок */
     clear: both;
     width: 100%;
     max-width: 750px;
@@ -35,71 +46,138 @@ main { /* содержание */
 }
 
 @media only all and (max-width:480px) {
-    .hide-lt480px {display: none;}
+    .hide-lt480px {
+        display: none;
+    }
 }
 
-a {text-decoration: none;
+a {
+    text-decoration: none;
     padding-left: 0.5em;
-    padding-bottom: 0.5em; 
+    padding-bottom: 0.5em;
 }
-    a:hover {background: #b9fae6;}
 
-li {list-style-position: outside;
+a:hover {
+    background: #b9fae6;
+}
+
+li {
+    list-style-position: outside;
     padding-right: 1em;
     line-height: 2em;
 }
 
-ul {list-style-position: outside;}
+ul {
+    list-style-position: outside;
+}
 
 img {
-    max-width: 99%; 
+    max-width: 99%;
     height: auto;
     aspect-ratio: attr(width) / attr(height);
 }
 
 
-h1 {text-align: center;}
-h2 {text-align: center;}
-p {line-height: 1.5em; margin:0.5em;}
-td {padding: 0.4em;}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    line-height: 1.5em;
+    margin: 0.5em;
+}
+
+td {
+    padding: 0.4em;
+}
+
 @media only all and (max-width:480px) {
-    p, h1, h2, h3, h4 {
+    p,
+    h1,
+    h2,
+    h3,
+    h4 {
         clear: both;
         float: none;
     }
 }
 
 
-.cr {clear: both;}
-.white {background-color: white;}
-.green {background-color: #DEE9D9;}
-.sel { /* sky */ background-color: #EDF8FC;}
-.left {float: left;}
-.right {float: right;}
-.center {text-align: center;}
-.ref a {font-weight: bold;}
-.w1p6 {width: 13.5%;}
-.w1p3 {width: 29%;}
-.w1p2 {width: 48%;}
+.cr {
+    clear: both;
+}
 
-.leftc {float: left;
+.white {
+    background-color: white;
+}
+
+.green {
+    background-color: #DEE9D9;
+}
+
+.sel {
+    /* sky */
+    background-color: #EDF8FC;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
     text-align: center;
 }
-    .leftc img { /*красивая рамка css3 без фона*/
-        border: 1px solid #A0A0A0; /*gray*/
-        border-radius: 4px;
-        box-shadow: 1px 2px 6px #707070;
-    }
 
+.ref a {
+    font-weight: bold;
+}
 
-.rightc {float: right;
+.w1p6 {
+    width: 13.5%;
+}
+
+.w1p3 {
+    width: 29%;
+}
+
+.w1p2 {
+    width: 48%;
+}
+
+.leftc {
+    float: left;
     text-align: center;
 }
-    .rightc img { /*красивая рамка css3 без фона*/
-        border: 1px solid #A0A0A0; /*gray*/
-        border-radius: 4px;
-        box-shadow: 1px 2px 6px #707070;
-    }
+
+.leftc img {
+    /*красивая рамка css3 без фона*/
+    border: 1px solid #A0A0A0;
+    /*gray*/
+    border-radius: 4px;
+    box-shadow: 1px 2px 6px #707070;
+}
+
+
+.rightc {
+    float: right;
+    text-align: center;
+}
+
+.rightc img {
+    /*красивая рамка css3 без фона*/
+    border: 1px solid #A0A0A0;
+    /*gray*/
+    border-radius: 4px;
+    box-shadow: 1px 2px 6px #707070;
+}
 
 
 .formula {
@@ -108,21 +186,28 @@ td {padding: 0.4em;}
 }
 
 
-.big { /* отменяет font formula */
+.big {
+    /* отменяет font formula */
     font-size: larger;
     font-weight: normal;
 }
-.small {font-size: smaller;}
+
+.small {
+    font-size: smaller;
+}
 
 
-.txt { /* выделенный абзац для текста */
+.txt {
+    /* выделенный абзац для текста */
     margin-left: 10%;
     margin-right: 10%;
     border: 1px solid #E0F0E0;
 }
-    .txt:first-letter {
-        font-weight: bold;
-    }
+
+.txt:first-letter {
+    font-weight: bold;
+}
+
 @media only all and (max-width:480px) {
     .txt {
         margin-left: 2%;
@@ -130,7 +215,8 @@ td {padding: 0.4em;}
     }
 }
 
-.txthead { /* заголовок перед txt */
+.txthead {
+    /* заголовок перед txt */
     margin-left: 10%;
     text-align: left;
 }
@@ -142,11 +228,13 @@ td {padding: 0.4em;}
     }
 }
 
-.leftnav { /* левая навигация */
+.leftnav {
+    /* левая навигация */
     float: left;
     max-width: 199px;
     border-left: 1px dotted gray;
 }
+
 @media only all and (max-width:750px) {
     .leftnav {
         width: 100%;
@@ -156,7 +244,8 @@ td {padding: 0.4em;}
 }
 
 
-.headquote { /* эпиграф */
+.headquote {
+    /* эпиграф */
     margin-left: 30%;
     border-bottom: 1px dotted gray;
     font-size: smaller;
@@ -174,7 +263,8 @@ td {padding: 0.4em;}
 /* fabrika ksi */
 .w700 {
     max-width: 700px;
-    margin: auto; /* center */
+    margin: auto;
+    /* center */
 }
 
 .DR-Level1 {
@@ -232,6 +322,7 @@ td {padding: 0.4em;}
     width: 340px;
     margin: 1em;
 }
+
 @media only all and (max-width:400px) {
     .column {
         clear: both;
@@ -246,6 +337,7 @@ td {padding: 0.4em;}
     float: left;
     padding-bottom: 1em;
 }
+
 @media only all and (max-width:700px) {
     .page {
         background: none;
