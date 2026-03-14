@@ -1,6 +1,6 @@
 // tarmo
 
-const googlecounter='G-R0FRG6NEF1';
+const googleAnalyticsId='G-R0FRG6NEF1';
 const disqusname='cyber-ek';
 
 var alt = 'logo - Механизмы сознания';

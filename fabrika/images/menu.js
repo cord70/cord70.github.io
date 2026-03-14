@@ -1,6 +1,6 @@
 // fabrika
 
-const googlecounter='G-WXES3Q30MJ';
+const googleAnalyticsId='G-WXES3Q30MJ';
 const disqusname='photo-ek';
 
 var alt = 'logo - История фабрики в рп им Калинина';

@@ -1,6 +1,6 @@
 // cyber
 
-const googlecounter = 'G-KVPFGW8RWM';
+const googleAnalyticsId = 'G-KVPFGW8RWM';
 const disqusname = 'cyber-ek';
 
 var alt = 'logo - Механизмы существования и сознания';

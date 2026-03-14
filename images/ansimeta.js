@@ -8,15 +8,17 @@ function onLazyScroll() {
 
         // google analytics
         setTimeout(function () {
+            // 1. Create and inject the gtag.js library
+            var s = document.createElement("script");
+            s.src = 'https://www.googletagmanager.com/gtag/js?id=' + googleAnalyticsId;
+            s.async = true;
+            document.body.appendChild(s);
+            // 2. Initialize the dataLayer and gtag function
             window.dataLayer = window.dataLayer || [];
             function gtag() { dataLayer.push(arguments); }
             gtag('js', new Date());
-            gtag('config', googlecounter);
-            var s = document.createElement("script");
-            s.src = 'https://www.googletagmanager.com/gtag/js?id=' + googlecounter;
-            s.async = true;
-            document.body.appendChild(s);
-        }, 200); // 200ms после scroll
+            gtag('config', googleAnalyticsId);
+        }, 100); // ms после scroll
     }
 }
 addScrollEvent(onLazyScroll);

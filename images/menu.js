@@ -1,6 +1,6 @@
 // root
 
-const googlecounter = 'G-EZW0R402XT';
+const googleAnalyticsId = 'G-EZW0R402XT';
 const disqusname = 'photo-ek';
 
 const logo = refpath + 'images/photohome.png';

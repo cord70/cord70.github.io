@@ -1,6 +1,6 @@
 // photo
 
-const googlecounter = 'G-EZW0R402XT';
+const googleAnalyticsId = 'G-EZW0R402XT';
 const disqusname = 'photo-ek';
 
 var alt = 'logo - Фотографии и хобби Е Корниенко';
