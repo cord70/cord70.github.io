@@ -110,10 +110,9 @@ function navstring() {//вывод навигации в виде строки
         pagetitle = pageadr.substring(p2 + 1); // имя директории
     } while (p1 >= 0);
 
-    html = '<a href="' + refpath + indexPage + '">' +
-        '<img src="' + logo + '" alt="ref to home page" title="home page"></a> ' + html;
-
-    menuLine.outerHTML = '<nav><p class="hide-lt480px">' + html + '</p></nav>';
+    menuLine.outerHTML = '<a href="' + refpath + indexPage + '">' +
+     '<nav><img src="' + logo + '" alt="ref to home page" title="home page"></a> <span class="hide-lt480px">' + 
+     html + '</span></nav>';
 }
 
 

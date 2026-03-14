@@ -5,8 +5,8 @@ const disqusname = 'cyber-ek';
 
 var alt = 'logo - Механизмы существования и сознания';
 if ( pagelang=='en' ) alt = 'logo - Mechanisms of Consciousness and Existence';
-var title = 'Механизмы<span class="hide-lt480px"> существования и сознания</span>';
-if ( pagelang=='en' ) title = 'Mechanisms<span class="hide-lt480px"> of Consciousness and Existence</span>';
+var title = 'Механизмы <span class="hide-lt480px"> существования и сознания</span>';
+if ( pagelang=='en' ) title = 'Mechanisms <span class="hide-lt480px"> of Consciousness and Existence</span>';
 const logo = refpath+'images/home.gif';
 
 function topmenu() {

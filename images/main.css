@@ -45,11 +45,55 @@ main {
     border-bottom: 1px dotted gray;
 }
 
+
+@media only all and (width <=750px) {
+    .leftnav {
+        width: 100%;
+        max-width: 80%;
+        text-align: center;
+    }
+}
+
+@media only all and (width <=700px) {
+    .page {
+        background: none;
+        clear: both;
+        width: 100%;
+    }
+}
+
 @media only all and (width <=480px) {
+/* CSS rules for screens 480px wide or smaller */
     .hide-lt480px {
         display: none;
     }
+    p,
+    h1,
+    h2,
+    h3,
+    h4 {
+        clear: both;
+        float: none;
+    }
+
+    .txt {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    blockquote {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }
+
+@media only all and (width <=400px) {
+    .column {
+        clear: both;
+        width: auto;
+    }
+}
+
 
 a {
     text-decoration: none;
@@ -94,16 +138,6 @@ td {
     padding: 0.4em;
 }
 
-@media only all and (width <=480px) {
-    p,
-    h1,
-    h2,
-    h3,
-    h4 {
-        clear: both;
-        float: none;
-    }
-}
 
 
 .cr {
@@ -209,12 +243,6 @@ td {
     font-weight: bold;
 }
 
-@media only all and (width <=480px) {
-    .txt {
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-}
 
 .txthead {
     /* заголовок перед txt */
@@ -222,12 +250,6 @@ td {
     text-align: left;
 }
 
-@media only all and (width <=480px) {
-    blockquote {
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-}
 
 .leftnav {
     /* левая навигация */
@@ -235,15 +257,6 @@ td {
     max-width: 199px;
     border-left: 1px dotted gray;
 }
-
-@media only all and (width <=750px) {
-    .leftnav {
-        width: 100%;
-        max-width: 80%;
-        text-align: center;
-    }
-}
-
 
 .headquote {
     /* эпиграф */
@@ -325,27 +338,12 @@ td {
     margin: 1em;
 }
 
-@media only all and (width <=400px) {
-    .column {
-        clear: both;
-        width: auto;
-    }
-}
-
 .page {
     width: 680px;
     max-width: 100%;
     background: url("fabrika-frame100.jpg") no-repeat;
     float: left;
     padding-bottom: 1em;
-}
-
-@media only all and (width <=700px) {
-    .page {
-        background: none;
-        clear: both;
-        width: 100%;
-    }
 }
 
 .home {
