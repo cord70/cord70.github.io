@@ -101,7 +101,7 @@ function navstring() {//вывод навигации в виде строки
     do {
         if (pagetitle != 'images' && pagetitle != '600' && pagetitle != '200')
             if (html == '')
-                html = document.title;
+                html = '<span class="hide-lt480px">' + document.title + '<spam>' + ' ';
             else
                 html = ' <a href="' + refpath + pageadr + '/' + indexPage + '">' + pagetitle + '►</a>' + html;
         p1 = pageadr.lastIndexOf('/');
@@ -111,8 +111,8 @@ function navstring() {//вывод навигации в виде строки
     } while (p1 >= 0);
 
     menuLine.outerHTML = '<a href="' + refpath + indexPage + '">' +
-     '<nav><img src="' + logo + '" alt="ref to home page" title="home page"></a> <span class="hide-lt480px">' + 
-     html + '</span></nav>';
+     '<nav><img src="' + logo + '" alt="ref to home page" title="home page"></a> ' + 
+     html + '</nav>';
 }
 
 
