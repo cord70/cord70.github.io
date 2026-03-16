@@ -54,7 +54,7 @@ main {
     }
 }
 
-@media only all and (width <=700px) {
+@media only all and (max-width: 700px) {
     .page {
         background: none;
         clear: both;
@@ -67,6 +67,7 @@ main {
     .hide-lt480px {
         display: none;
     }
+
     p,
     h1,
     h2,
@@ -346,6 +347,12 @@ td {
     padding-bottom: 1em;
 }
 
+@media screen and (max-width: 600px) {
+  .page {
+    background: none; /* This removes the background image */
+  }
+}
+
 .home {
     margin-top: 1em;
     text-align: center;
@@ -391,6 +398,7 @@ td {
     height: 0;
     padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
 }
+
 .video-container iframe {
     position: absolute;
     top: 0;
