@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru"> 
 <head> 
+  <script>
+	const page = window.location.pathname;
+	if (page.includes('_')) 
+	if (page.includes('/cyber/') || page.includes('/photo/'))
+		window.location.replace(window.location.origin + page.replace(/_/g, '-')); 
+  </script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page is not found</title>
